@@ -3,7 +3,7 @@ import React from "react";
 import './Cards.css';
 
 
-const Card = (props) => {
+const Card = () => {
     return (
 <body>
 
@@ -19,8 +19,8 @@ const Card = (props) => {
                         <div className="card-content">
 
                             <h2>Gégé</h2>
-                            <p className="flaw"><strong>Major Flaw : </strong>I can't help yawning all the time</p>
-                            <p>Execute are we in agreeance what do you feel you would bring to the table if you were hired for this position, nor closer to the metal goalposts, are there any leftovers in the kitchen?.</p>
+                            <p className="flaw"><strong>Défaut majeur : </strong>Je baille constamment</p>
+                            <p>"Tous les membres de ma famille sont atteints par cette incapacité à réprimer les baillements. Grâce à Scrub, j'ai pu trouver la compagne idéale qui tolèrede de voir constamment le fond de ma gorge ".</p>
                         </div>
                         
                     
@@ -32,9 +32,9 @@ const Card = (props) => {
                     <img src="https://res.cloudinary.com/dzzuxhr3r/image/upload/v1554387593/projet%20Scrub/ugly1.jpg" alt="Norwegian boller"/>
                 </picture>
                 <div className="card-content">
-                    <h2>Magalie et Jérémie, just married</h2>
-                    <p className="flaw"><strong>Major Flaw : </strong>We only feel confortable in a smoky environment</p>
-                    <p>Execute are we in agreeance what do you feel you would bring to the table if you were hired for this position, nor closer to the metal goalposts, are there any leftovers in the kitchen?.</p>
+                    <h2>Magalie et Jérémie, mariés récemment</h2>
+                    <p className="flaw"><strong>Défaut majeur : </strong>Nous fumons comme des pompiers, notre maison est constamment enfumée</p>
+                    <p>"C'est grâce à Scrub que nous nous sommes rencontrés. Impossible auparavant de trouver quelqu'un qui puisse supporter notre addiction à la cigarette et à tout ce qui se fume en général".</p>
                 </div>
         </div>          
 
@@ -48,8 +48,8 @@ const Card = (props) => {
                 
                 <div className="card-content">
                     <h2>Robert</h2>
-                    <p className="flaw"><strong>Major Flaw :</strong> I like to cover my body with silverware</p>
-                    <p>hViral engagement anti-pattern back of the net, for meeting assassin horsehead offer. Loop back design thinking drop-dead date.</p>
+                    <p className="flaw"><strong>Défaut majeur : </strong>J'aime me couvrir la peau avec des objets métalliques</p>
+                    <p>"Couvrir mon corps de couverts me permet de calmer mes angoisses. J'ai pu, grâce à Scrub, rencontrer ma femme d'origine chinoise qui a elle une relation particulière avec les baguettes."</p>
                 </div>
             
         </div>

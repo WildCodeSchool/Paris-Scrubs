@@ -30,6 +30,7 @@ img {
 
 .card-content {
 	padding: 1.4em;
+    text-align: justify;
 }
 
 .card-content h2 {
@@ -39,7 +40,7 @@ img {
 }
 
 .card-content p {
-	font-size: 80%;
+	font-size: 1em;
 }
 
 /* Grid stuff */
@@ -51,7 +52,7 @@ img {
    
  }
 
- 
+
 
  /* Media Queries */
 
