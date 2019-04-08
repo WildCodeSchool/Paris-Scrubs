@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1{
     margin:0;
     padding-left:10px;
+    color: #000;
 }
 
 .scrubs{
@@ -23,7 +27,6 @@ h1{
     box-sizing: border-box;
     transition: .5s;
     display: flex;
-    
 }
 
 .navbar .scrubs{
@@ -46,14 +49,14 @@ h1{
   list-style:none;
   line-height:60px;
   text-align:center;
-  background: rgba(0,0,0,.5);
+  /*background: rgba(0,0,0,.5);*/
 }
 
 .navbar ul li a{
   display:block;
   padding: 0 30px;
   text-decoration : none;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 16px;
