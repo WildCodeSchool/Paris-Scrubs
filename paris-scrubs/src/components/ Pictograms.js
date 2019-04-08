@@ -23,7 +23,6 @@ const Pictograms = () => {
                 <p>de votre temps libre pour ...<strong> ¯\_(ツ)_/¯</strong></p>
            </div>
          </div>
-   
     </body>
     )
 }

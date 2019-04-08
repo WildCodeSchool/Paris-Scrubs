@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Pictograms from './components/ Pictograms'
 import './App.css';
+import Card from './components/Cards.js'
 
 class App extends Component {
   render() {
@@ -9,6 +10,11 @@ class App extends Component {
       <div className="App">
         
         <Pictograms />
+        <header >
+          
+        </header>
+        <Card />
+      
       </div>
     );
   }
