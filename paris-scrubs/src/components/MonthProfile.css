@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed|Dokdo|Kalam|Roboto|Satisfy'); /*en React*/
+
+.monthContainer {
+    display : flex;
+    flex-flow: nowrap; /*<‘flex-direction’> || <‘flex-wrap’>*/
+    justify-content: space-evenly;
+    margin: 5vw 0 5vw;
+    text-align: center;
+    width: 100vw;
+}
+
+.monthPhoto {
+    height: 35vw;
+    object-fit: cover;
+    margin: 1rem auto;
+    width: 45vw;
+    -webkit-filter: blur(5px);
+}
+
+.monthPhoto:hover {
+    -webkit-filter: none;
+}
+
+/*title on image*/
+.monthBox{
+    position: relative
+}
+
+.monthBox p {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.monthTitle {
+    color: whitesmoke;
+    font-size: 2.5rem;
+    left: 2em;
+    margin-top: -250px;
+}
+
+.monthTitle:hover {
+    visibility: hidden;
+}
+
+.monthName {
+    font-family: 'Dokdo', cursive;
+    font-size: 3rem;
+}
+
+.monthFlaw {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 2559px) {
+    .monthContainer p {
+        font-size: 4rem;
+        left: 10rem;
+        margin-top: -450px;
+    }
+}
+
+/*Laptops*/
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .monthContainer {
+        flex-flow: column wrap; /*<‘flex-direction’> || <‘flex-wrap’>*/
+        left: 4.5em;
+        margin: 0;
+    }
+    .monthContainer p {
+        font-size: 4rem;
+        margin-top: -350px;
+    }
+    .monthPhoto {
+        height: 70vw;
+        object-fit: cover;
+        margin: 1rem auto;
+        width: 90vw;
+    }
+}
+
+/*Tablets, Ipads*/
+@media (min-width: 767px) and (max-width: 1023px) {
+    .monthContainer {
+        flex-flow: column wrap; /*<‘flex-direction’> || <‘flex-wrap’>*/
+        margin: 0;
+    }
+    .monthContainer p {
+        font-size: 3rem;
+        left: 1.7em;
+        margin-top: -350px;
+    }
+    .monthPhoto {
+        height: 70vw;
+        object-fit: cover;
+        margin: 1rem auto;
+        width: 90vw;
+    }
+}
+
+/*Low Resolution Tablets, Mobiles*/
+@media (min-width: 424px) and (max-width: 767px) {
+    .monthContainer {
+        flex-flow: column wrap; /*<‘flex-direction’> || <‘flex-wrap’>*/
+        margin: 0;
+    }
+    .monthContainer p{
+        font-size: 1.8rem;
+        left: 1.2em;
+        margin-top: -180px;
+    }
+    .monthPhoto {
+        height: 70vw;
+        object-fit: cover;
+        margin: 1rem auto;
+        width: 90vw;
+    }
+    .monthName, .monthFlaw {
+        visibility: hidden;
+    }
+    .monthLogo {
+        margin-top: -200px;
+    }
+}
+
+/*Most of the Smartphones Mobiles*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .monthContainer {
+        flex-flow: column wrap; /*<‘flex-direction’> || <‘flex-wrap’>*/
+        margin: 0;
+    }
+    .monthContainer p {
+        font-size: 1.3rem;
+        left: 1.7em;
+        margin-top: -140px;
+    }
+    .monthPhoto {
+        height: 70vw;
+        object-fit: cover;
+        margin: 1rem auto;
+        width: 90vw;
+    }
+    .monthName, .monthFlaw {
+        visibility: hidden;
+    }
+    .monthLogo {
+        margin-top: -150px;
+    }
+}
+
+.monthLogo {
+    /*animation: App-logo-spin infinite 20s linear;*/
+    display: block;
+    height: 13vmin;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    width: 13vmin;   
+}
