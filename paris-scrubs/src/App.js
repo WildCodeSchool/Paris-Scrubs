@@ -8,6 +8,7 @@ import Navbar from './components/navbar';
 >>>>>>> dev
 import Card from './components/Cards.js'
 
+
 class App extends Component {
   render() {
     return (
