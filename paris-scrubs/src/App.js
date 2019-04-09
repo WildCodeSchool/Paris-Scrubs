@@ -2,9 +2,15 @@ import React, { Component } from 'react';
 import Displaypicto from './components/Displaypicto'
 
 import './App.css';
+HEAD
 import MonthProfile from './components/MonthProfile';
 import Navbar from './components/navbar';
+
+import MonthProfile from './components/MonthProfile';
+import Navbar from './components/navbar';
+
 import Card from './components/Cards.js'
+
 
 class App extends Component {
   render() {
