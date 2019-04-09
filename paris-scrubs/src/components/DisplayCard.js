@@ -1,16 +1,16 @@
 import React from "react"
 
 const DisplayCard = (props) => {
-    return <div className="card">
+    return <div className="cardsCard">
                     
     <picture>
-        <img src={props.img} alt=""/>
+        <img className="cardsImg"src={props.img} alt=""/>
     </picture>
     
-    <div className="card-content">
+    <div className="cardsCard-content">
 
-        <h2>{props.name}</h2>
-        <p className="flaw"><strong>Défaut majeur : </strong>{props.default}</p>
+        <h2 className="cardsH2">{props.name}</h2>
+        <p className="cardsFlaw"><strong>Défaut majeur : </strong>{props.default}</p>
         <p>{props.desc}</p>
     </div>
     

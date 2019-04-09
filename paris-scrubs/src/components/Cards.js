@@ -7,9 +7,9 @@ import './Cards.css';
 
 const Card = () => {
     return (
-<body>
+<body className="cardsBody">
 
-    <div className="allcards">
+    <div className="cardsAllcards">
         {infosCard.map(infoCard => <DisplayCard default={infoCard.default} name={infoCard.name} img={infoCard.img} desc={infoCard.desc}/>
  )}
 
