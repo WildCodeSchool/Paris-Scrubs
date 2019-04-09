@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import Displaypicto from './components/Displaypicto'
 
-import Pictograms from './components/ Pictograms'
 import './App.css';
 import Card from './components/Cards.js'
 
@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         
-        <Pictograms />
+        <Displaypicto  />
         <header >
           
         </header>
