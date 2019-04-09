@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 
 import './App.css';
-<<<<<<< HEAD
 import MonthProfile from './components/MonthProfile';
-=======
 import Navbar from './components/navbar';
->>>>>>> dev
 import Card from './components/Cards.js'
 
 class App extends Component {
