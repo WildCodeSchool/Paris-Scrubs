@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 
 import './App.css';
-<<<<<<< HEAD
 import MonthProfile from './components/MonthProfile';
-=======
 import Navbar from './components/navbar';
->>>>>>> dev
 import Card from './components/Cards.js'
+import Footer from './components/Footer'
 
 
 class App extends Component {
@@ -14,22 +12,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-
           <Navbar />
-          
-          
         </header>
-
-        
-
-        <header >
-          
-        </header>
-          <article>
-            <MonthProfile />
-          </article>
+        <article>
+          <MonthProfile />
+        </article>
       <Card />
-      
+      <Footer />
       </div>
     );
   }
