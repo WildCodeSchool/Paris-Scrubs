@@ -1,34 +1,23 @@
 import React, { Component } from 'react';
 
 import './App.css';
-<<<<<<< HEAD
 import MonthProfile from './components/MonthProfile';
-=======
 import Navbar from './components/navbar';
->>>>>>> dev
-import Card from './components/Cards.js'
+import Card from './components/Cards.js';
+import ThreeButton from './components/ThreeButton.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-
           <Navbar />
-          
-          
+          <ThreeButton />
         </header>
-
-        
-
-        <header >
-          
-        </header>
-          <article>
-            <MonthProfile />
-          </article>
-      <Card />
-      
+        <article>
+          <MonthProfile />
+        </article>
+        <Card />
       </div>
     );
   }
