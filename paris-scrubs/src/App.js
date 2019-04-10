@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import MonthProfile from './components/MonthProfile';
 import Navbar from './components/navbar';
-import Card from './components/Cards.js';
 import ThreeButton from './components/ThreeButton.js';
+import Displaypicto from './components/Displaypicto';
+import MonthProfile from './components/MonthProfile';
+import Card from './components/Cards.js';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -14,13 +16,12 @@ class App extends Component {
           <Navbar />
           <ThreeButton />
         </header>
-        <article>
-          <MonthProfile />
-        </article>
+        <Displaypicto  />
+        <MonthProfile />
         <Card />
+        <Footer />
       </div>
     );
   }
 }
-
 export default App;
