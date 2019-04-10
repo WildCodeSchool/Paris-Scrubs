@@ -4,15 +4,15 @@ import './Footer.css';
 const footerSocial = [
   {
     li: "http://www.facebook.com",
-    logo: require('../logoFacebook.png')
+    logo: require('./logoFacebook.png')
   },
   {
     li: "https://twitter.com/login?lang=fr",
-    logo: require('../logoTwitter.png')
+    logo: require('./logoTwitter.png')
   },
   {
     li: "https://instagram.com",
-    logo: require('../logoInsta.png')
+    logo: require('./logoInsta.png')
   },
 ]
 
