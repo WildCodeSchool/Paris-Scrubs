@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 
-import './App.css';
-import Displaypicto from './components/Displaypicto'
 import MonthProfile from './components/MonthProfile';
 import Navbar from './components/navbar';
 import Card from './components/Cards.js'
+import Footer from './components/Footer'
+import Displaypicto from './components/Displaypicto'
+
 import './App.css';
 
 
@@ -24,6 +25,7 @@ class App extends Component {
         </article>
 
         <Card />
+        <Footer />
       </div>
     );
   }
