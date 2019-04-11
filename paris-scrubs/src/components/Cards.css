@@ -1,15 +1,15 @@
-body {
+.cardsBody {
 	background: hsl(0, 0%, 90%);
 }
 
 
-h2 {
+.cardsH2 {
     font-size: 1.5rem;
     color: #007489;
   }
 
 
-img {
+.cardsImg {
 	display: block;
 	border: 0;
 	width: 100%;
@@ -17,35 +17,35 @@ img {
     
 }
 
-.card .card-content .flaw {
+.cardsCard .cardsCard-content .flaw {
     font-size: 1rem;
 }
 
-.card {
+.cardsCard {
 	background: white;
     margin-bottom: 2em;
     margin: 10px;	
 }
 
 
-.card-content {
+.cardsCard-content {
 	padding: 1.4em;
     text-align: justify;
 }
 
-.card-content h2 {
+.cardsCard-content h2 {
 	margin-top: 0;
 	margin-bottom: .5em;
 	font-weight: bold;
 }
 
-.card-content p {
+.cardsCard-content p {
 	font-size: 1em;
 }
 
 /* Grid stuff */
 
-.allcards {
+.cardsAllcards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr
@@ -59,7 +59,7 @@ img {
 
 
  @media (min-width: 320px) and (max-width: 480px) {
-    .allcards{
+    .cardsAllcards{
         display: grid;
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1fr 1fr ;
