@@ -12,8 +12,26 @@ class App extends Component {
         <header className="App-header">
 
           <Navbar />
+<<<<<<< Updated upstream
           
           
+=======
+
+         {/*
+          <Navbar 
+            text="Lien 1"
+          />
+
+          <Navbar 
+            text="Lien 2"
+          />
+
+          <Navbar 
+            text="Lien 3"
+          />
+          */}
+
+>>>>>>> Stashed changes
         </header>
 
         

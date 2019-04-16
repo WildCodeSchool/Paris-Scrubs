@@ -1,11 +1,9 @@
 import React from "react";
 import "./navbar.css";
 
-const Navbar = () => {
-    return(
+{/* 
 
-<body>
-    <nav className="navbar">
+<nav className="navbar">
         
         <h1 className="scrubs">SCRUBS</h1>
         
@@ -16,11 +14,43 @@ const Navbar = () => {
         </ul>
         
     </nav>
-    
-</body>
 
-    )
-}
+*/}
 
+const navbar = [
+    {
+        text:"Pourquoi Scrubs ?"
+    },
+    {
+        text:"Nos profils"
+    },
+    {
+        text:"Nos témoignages"
+    },
+    {
+        text:"test 1"
+    },
+];
+
+const Navbar = () => (
+    <>
+
+    <nav className="navNavbar">
+
+        <h1 className="navScrubs">SCRUBS</h1>
+        
+        <div className="navMenu">
+
+            {navbar.map(poulet => (
+                
+                <p className="navBloc">{poulet.text}</p>
+                
+            ))}
+        </div>
+    </nav>
+
+    </>
+
+);
 
 export default Navbar;
