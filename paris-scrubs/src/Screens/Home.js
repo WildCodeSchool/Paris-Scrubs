@@ -13,14 +13,11 @@ class Home extends React.Component {
     return (
         <div className="home">
         <header className="App-header">
-        <NavLink exact to="/"> Accueil </NavLink>
-        <NavLink to="/profilepage"> Profils </NavLink>
+        
           <Navbar />
          
         
-
-
-          <ThreeButton />
+        <ThreeButton />
         </header>
         <Displaypicto  />
         <MonthProfile />
