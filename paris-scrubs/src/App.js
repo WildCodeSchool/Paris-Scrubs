@@ -1,26 +1,28 @@
 import React, { Component } from 'react';
-
 import './App.css';
-import Navbar from './components/navbar';
-import ThreeButton from './components/ThreeButton.js';
-import Displaypicto from './components/Displaypicto';
-import MonthProfile from './components/MonthProfile';
-import Card from './components/Cards.js';
-import Footer from './components/Footer';
+import { Route, BrowserRouter, Switch, NavLink } from 'react-router-dom';
+
+import ProfilesPage from './Screens/ProfilesPage';
+import Home from './Screens/Home'
+
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <Navbar />
-          <ThreeButton />
-        </header>
-        <Displaypicto  />
-        <MonthProfile />
-        <Card />
-        <Footer />
-      </div>
+        <BrowserRouter>
+        <div>
+        
+         
+         <Switch>
+                <Route exact path="/" component={Home} />
+                <Route path="/profilepage" component={ProfilesPage} />
+               
+          </Switch>
+          </div>
+        </BrowserRouter>
+         </div>
     );
   }
 }
