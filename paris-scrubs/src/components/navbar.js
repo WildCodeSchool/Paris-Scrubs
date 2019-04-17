@@ -1,7 +1,10 @@
 import React from "react";
 import "./navbar.css";
+import {NavLink, Link} from 'react-router-dom'
 
-{/* 
+{/* import navlink which is a react component 
+
+ 
 
 <nav className="navbar">
         
@@ -19,17 +22,18 @@ import "./navbar.css";
 
 const navbar = [
     {
-        text:"Pourquoi Scrubs ?"
+        text:"Pourquoi Scrubs ?",
+        link:""
     },
     {
-        text:"Nos profils"
+        text:"Nos profils",
+        link:"/profilepage"
     },
     {
-        text:"Nos témoignages"
+        text:"Nos témoignages",
+        link:""
     },
-    {
-        text:"test 1"
-    },
+    
 ];
 
 const Navbar = () => (
@@ -37,15 +41,17 @@ const Navbar = () => (
 
     <nav className="navNavbar">
 
-        <h1 className="navScrubs">SCRUBS</h1>
+        <NavLink exact to="/"><h1 className="navScrubs">SCRUBS</h1></NavLink>
         
         <div className="navMenu">
+        
+            {navbar.map(navbar => (
+                
+                <p className="navBloc"><NavLink to={navbar.link}>{navbar.text}</NavLink></p>
 
-            {navbar.map(poulet => (
-                
-                <p className="navBloc">{poulet.text}</p>
-                
+              
             ))}
+       
         </div>
     </nav>
 
