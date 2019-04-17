@@ -1,7 +1,9 @@
 import React from "react";
 import "./navbar.css";
 
-{/* 
+{/* import navlink which is a react component 
+
+ 
 
 <nav className="navbar">
         
@@ -40,7 +42,7 @@ const Navbar = () => (
         <h1 className="navScrubs">SCRUBS</h1>
         
         <div className="navMenu">
-
+        
             {navbar.map(poulet => (
                 
                 <p className="navBloc">{poulet.text}</p>
