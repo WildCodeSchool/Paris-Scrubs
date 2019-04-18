@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import {NavLink, Link} from 'react-router-dom'
 
 const footerSocial = [
   {
@@ -18,19 +19,24 @@ const footerSocial = [
 
 const footerNav = [
   {
-    home: "Home"
+    home: "Home",
+    link:"/"
   },
   {
-    home: "Selected Profil"
+    home: "Selected Profil",
+    link:"/profilepage"
   }, 
   {
-    home: "My Account"
+    home: "My Account",
+    link:""
   },
   {
-    home: "Legal Mentions"
+    home: "Legal Mentions",
+    link:""
   },
   {
-    home: "Contact Us"
+    home: "Contact Us",
+    link:""
   },
 ] 
 
@@ -42,24 +48,24 @@ const Footer = () =>(
 
     <>
       <div className="footerRight">
-        <a className="footerIcon" href={footer.li}><img className="footerImg"src={footer.logo}/></a>
+        <NavLink to={footer.li} className="footerIcon" ><img className="footerImg"src={footer.logo}/></NavLink>
       </div>
     </>
     ))}
 
     {footerNav.map(footer => (
-      <>
+     
         <div className="footerLeft">  
           <p className="footerLinks">  
-            <a href="home"> {footer.home} </a>
+            <NavLink to={footer.link}>{footer.home} </NavLink>
           </p>  
         </div>
-        {/*<p> Scrub &copy; 2019 </p>*/}
-      </>
-      ) )}    
+        
+      
+       ))}    
   </footer>
 
 )   
     
-    
+
 export default Footer;
