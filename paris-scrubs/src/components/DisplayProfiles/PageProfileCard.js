@@ -3,26 +3,26 @@ import React from 'react'
 
 
 const PageProfileCard = (props) => {
-    return <div class="card">
+    return <div  class="PageProfilecard">
     <a >
         
-        <div class="card-image"><img src={props.img} alt="" /></div>
+        <div class="PageProfilecard-image"><img src={props.img} alt="" /></div>
         
 
         
-        <div class="card-body">
+        <div class="PageProfilecard-body">
 
            
-            <div class="card-date">
+            <div class="PageProfilecard-date">
                 <p>{props.name}</p>
             </div>
 
            
-            <div class="card-title">
+            <div class="PageProfilecard-title">
                 <h3>{props.default}</h3>
             </div>
             
-            <div class="card-excerpt">
+            <div class="PageProfilecard-excerpt">
                 <p>{props.desc} </p>
             </div>
 
