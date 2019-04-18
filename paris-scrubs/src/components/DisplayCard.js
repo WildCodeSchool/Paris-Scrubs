@@ -1,7 +1,7 @@
 import React from "react"
 
 const DisplayCard = (props) => {
-    return <div className="cardsCard">
+    return <div  className="cardsCard">
                     
     <picture>
         <img className="cardsImg"src={props.img} alt=""/>

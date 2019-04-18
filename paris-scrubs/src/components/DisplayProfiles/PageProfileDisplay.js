@@ -5,11 +5,11 @@ import PageProfileCard from './PageProfileCard'
 
 const PageProfileDisplay = () => {
     return (
-<body className="cardsBody">
+<body  className="cardsBody">
 
-    <div className="cardsAllcards">
+    <div className="gridcapacity">
         {PageProfiles.map(PageProfile => < PageProfileCard default={PageProfile.default} name={PageProfile.name} img={PageProfile.img} desc={PageProfile.desc}/>
- )}
+ )} 
 
         
     </div>

@@ -1,4 +1,24 @@
-.PageProfiledown {
-    top: 100px;
+.container {
+    top: 150px;
     position:relative;
+    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas:  
+    ". ProfileDisplay"
+    "Profilesearchbar ProfileDisplay "
+    ". ProfileDisplay "
 }
+
+.item-1 {
+    grid-area: Profilesearchbar;
+    }
+    
+.item-2 {
+        grid-area: ProfileDisplay;
+    }
+
+
+ /* Media Queries : @media (min-width: 320px) and (max-width: 480px)   */
+ 

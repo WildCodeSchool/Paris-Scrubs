@@ -22,6 +22,8 @@ class Home extends React.Component {
         <Displaypicto  />
         <MonthProfile />
         <Card />
+        
+        
         <Footer />
 
         </div>
