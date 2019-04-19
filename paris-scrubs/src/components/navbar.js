@@ -1,11 +1,12 @@
 import React from "react";
 import "./navbar.css";
+import {NavLink, Link} from 'react-router-dom'
 
-const Navbar = () => {
-    return(
+{/* import navlink which is a react component 
 
-<body>
-    <nav className="navbar">
+ 
+
+<nav className="navbar">
         
         <h1 className="scrubs">SCRUBS</h1>
         
@@ -16,11 +17,46 @@ const Navbar = () => {
         </ul>
         
     </nav>
+
+*/}
+
+const navbar = [
+    {
+        text:"Pourquoi Scrubs ?",
+        link:""
+    },
+    {
+        text:"Nos profils",
+        link:"/profilepage"
+    },
+    {
+        text:"Nos témoignages",
+        link:""
+    },
     
-</body>
+];
 
-    )
-}
+const Navbar = () => (
+    <>
 
+    <nav className="navNavbar">
+
+        <NavLink exact to="/"><h1 className="navScrubs">SCRUBS</h1></NavLink>
+        
+        <div className="navMenu">
+        
+            {navbar.map(navbar => (
+                
+                <p className="navBloc"><NavLink to={navbar.link}>{navbar.text}</NavLink></p>
+
+              
+            ))}
+       
+        </div>
+    </nav>
+
+    </>
+
+);
 
 export default Navbar;

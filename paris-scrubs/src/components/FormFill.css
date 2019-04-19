@@ -1,0 +1,109 @@
+.formfillContainer {
+  display:grid;
+  grid-template-areas: 
+  "formfillMail formfillMail"
+  "formfillName formfillPunchline "
+  "formfillFlaw  formfillDelights"
+  "formfillStory formfillStory"
+  "formfillSubmit formfillSubmit"
+;
+
+
+}
+
+.formfillDelights {
+  grid-area: formfillDelights;
+  flex-direction: column;
+  text-align: center;
+  color : yellow;
+  font-size: 30px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.formfillFlaw {
+  color : yellow;
+  grid-area: formfillFlaw;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.formfillMail {
+  color : yellow;
+  grid-area: formfillMail;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.formfillName {
+  color : yellow;
+  grid-area: formfillName;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+  
+  
+}
+
+.formfillPunchline {
+  color : yellow;
+  grid-area: formfillPunchline;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.formfillStory {
+  color :yellow;
+  grid-area: formfillStory;
+  flex-direction: column;
+  text-align: center;
+  resize: none !important;
+  height: 150px;
+  font-size: 30px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.formfillStory textarea {
+  width: 100%;
+}
+
+.formfillSubmit {
+  color : yellow;
+
+  grid-area: formfillSubmit;
+  flex-direction: column;
+  text-align: center;
+
+}
+ul {
+  list-style: none;
+}
+
+@media all and (max-width:1024px) {
+.formfillContainer {
+  display:grid;
+  grid-template-areas: 
+  "formfillMail "
+  "formfillName  "
+  "formfillPunchline"
+  "formfillFlaw " 
+  "formfillDelights"
+  "formfillStory "
+  "formfillSubmit"
+;
+
+
+}
+}
+

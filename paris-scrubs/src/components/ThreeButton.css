@@ -1,0 +1,96 @@
+.threeContainer {
+    background: url("https://image.noelshack.com/fichiers/2019/15/3/1554890833-webp-net-resizeimage.jpg") no-repeat center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+    width: 100vw;
+}
+
+.threeButton {
+    background: whitesmoke;
+    border-radius:50%;
+    box-shadow:2px 2px 8px #aaa;
+    color: rgba(10, 20, 29, 0.7);
+    font:bold 14px Arial;
+    height: 8vw;
+    margin-top: 20px;
+    width: 8vw;
+}
+
+.threebtn1, .threebtn2, .threebtn3 {
+    margin: 10px;
+}
+
+/*Laptops*/
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .threeContainer {
+        background-size: cover; /* standard version */
+        flex-flow: column wrap; 
+        min-height: 60vh;
+        -webkit-background-size: cover; /* for Chrome & Safari */
+    }
+    .threeButton {
+        background-color: rgba(82, 85, 88, 0.3);
+        font:bold 25px Arial;
+        height: 14vw;
+        width: 14vw;
+        margin: 10px;
+    }
+}
+
+/*Tablets, Ipads*/
+@media (min-width: 767px) and (max-width: 1023px) {
+    .threeContainer {
+        background-color: rgba(82, 85, 88, 0.3);
+        background-size: cover; /* standard version */
+        flex-flow: column wrap; 
+        min-height: 40vh;
+        -webkit-background-size: cover; /* for Chrome & Safari */
+    }
+    .threeButton {
+        font:bold 25px Arial;
+        height: 20vw;
+        margin: 40px;
+        width: 20vw;
+    }
+}
+
+/*Low Resolution Tablets, Mobiles*/
+@media (min-width: 424px) and (max-width: 768px) {
+    .threeContainer {
+        background-size: cover; /* standard version */
+        flex-flow: column wrap; 
+        min-height: 30vh;
+        -webkit-background-size: cover; /* for Chrome & Safari */
+    }
+    .threeButton {
+        background-color: rgba(82, 85, 88, 0.3);
+        font:bold 25px Arial;
+        height: 20vw;
+        margin: 10px;
+        width: 20vw;
+    }
+}
+
+/*Most of the Smartphones Mobiles*/
+@media (min-width: 320px) and (max-width: 423px) {
+    .threeContainer {
+        background-size: cover; /* standard version */
+        flex-flow: column wrap; 
+        margin-top: -100px;
+        min-height: 50vh;
+        -webkit-background-size: cover; /* for Chrome & Safari */
+    }
+    .threeButton {
+        background-color: rgba(82, 85, 88, 0.3);
+        font:bold 25px Arial;
+        height: 40vw;
+        margin: 40px;
+        border-radius:0;
+        width: 40vw;
+    }
+}
+
+  
+  
