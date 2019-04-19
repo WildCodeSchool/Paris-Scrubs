@@ -1,21 +1,31 @@
-.display_container {
+.picto_contener{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    width: 90%;
-    max-width: 1080px;
+    width: 100%;
     margin: auto;
+    background-color: grey;
 }
+.picto_card {
+    height: 150px;
+    margin-top: 25px;
+    border-right: 2px solid black;  
+}
+
+.picto_card3 {
+    height: 150px;
+    margin-top: 25px;
+}
+
 .picto_container {
-    margin-top: 50px;
-    height: 160px;
-    border: solid 1px black;
-    border-radius: 8px;
-    background-color: rgb(185, 163, 123);
+    margin-top: 0px;
+    height: 200px;
 
 }
+
 .picto_container p {
     margin-top: -10px;
+    display:inline-block;
+    max-width: 225px;
 }
 .image_picto {
     display: inline-block;
@@ -25,14 +35,31 @@
 }
 h1 {
     display: inline-block;
-    margin: 0;
-    
+    margin-bottom: 0px;
+    height: 80px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-    .display_container {
+    .picto_contener  {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .picto_card {
+        margin-top:20px;
+        border-bottom: 1px solid black;
+        border-right: none;
+    }
+    .picto_card3 {
+        height: 150px;
+        margin-top: 20px;
+    }
+    .picto_card p {
+        margin-top:0px;
+        border: none
+    }
+    .picto_card3 p {
+        margin-top:0px;
+        border: none
     }
     .picto_container {
         margin: -4px;
@@ -47,8 +74,8 @@ h1 {
         max-width: 230px;
     }
     .picto_container h3 {
-        margin: 10px;
-        max-width: 320px;
+        margin: 0px;
+        max-width: 350px;
     }
     .image_picto {
         margin-top: 10px;
