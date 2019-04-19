@@ -16,22 +16,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <BrowserRouter>
-        <div>
-        
-        <header className="App-header">
-          <Navbar />
-        </header>
-          
-        <Displaypicto  />
-        
-        <article>
-          <MonthProfile />
-        </article>
-
-         <Card />
-      </div>
-         
+        <BrowserRouter> 
          <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/profilepage" component={ProfilesPage} />
