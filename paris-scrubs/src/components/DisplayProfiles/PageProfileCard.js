@@ -41,11 +41,10 @@ class PageProfileCard extends Component {
             </div>
 
             <main>
-        <h1>React Modal</h1>
-        <Modal show={this.state.show} handleClose={this.hideModal}>
-          <p>Modal</p>
-          <p>Data</p>
-        </Modal>
+      
+        <Modal show={this.state.show} handleClose={this.hideModal}/>
+          
+    
             <button href="?" class="btn" onClick={this.showModal}>Profil Complet</button>
         </main>
         </div>
@@ -57,7 +56,5 @@ class PageProfileCard extends Component {
         }
 }
 
-const container = document.createElement("div");
-document.body.appendChild(container);
-ReactDOM.render(<PageProfileCard />, container);
+
 export default PageProfileCard
