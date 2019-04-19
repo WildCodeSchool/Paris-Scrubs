@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './PageProfileCard.css';
 
 
 const PageProfileCard = (props) => {
@@ -13,7 +13,7 @@ const PageProfileCard = (props) => {
         <div class="PageProfilecard-body">
 
            
-            <div class="PageProfilecard-date">
+            <div class="PageProfilecard-name">
                 <p>{props.name}</p>
             </div>
 
@@ -26,6 +26,7 @@ const PageProfileCard = (props) => {
                 <p>{props.desc} </p>
             </div>
 
+            <button href="?" class="btn">Profil Complet</button>
         </div>
         
     </a>
