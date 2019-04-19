@@ -4,13 +4,13 @@ import './ThreeButton.css';
 
 const buttons = [
     {
-    man : [ <Link to ="/"><button className="threeButton" type="button">Je cherche un homme</button></Link>],
+    man : [ <Link to ="/profilepage"><button className="threeButton" type="button">Je cherche un homme</button></Link>],
     },
     {
-    woman : [ <Link to ="/"><button className="threeButton" type="button">Je cherche une femme</button></Link>],
+    woman : [ <Link to ="/profilepage"><button className="threeButton" type="button">Je cherche une femme</button></Link>],
     },
     {
-    other : [ <Link to ="/"><button className="threeButton" type="button">Je cherche autre chose</button></Link>],
+    other : [ <Link to ="/profilepage"><button className="threeButton" type="button">Je cherche autre chose</button></Link>],
     },
 ]
 
