@@ -14,16 +14,20 @@ const PageProfileCard = (props) => {
 
            
             <div class="PageProfilecard-name">
-                <p>{props.name}</p>
+                <p>Pseudo: {props.name}</p>
             </div>
 
            
             <div class="PageProfilecard-title">
-                <h3>{props.default}</h3>
+                <h3>Défaut physique: {props.default1}</h3>
             </div>
             
+            <div class="PageProfilecard-title">
+                <h3>Défaut mental: {props.default2}</h3>
+            </div>
+
             <div class="PageProfilecard-excerpt">
-                <p>{props.desc} </p>
+                <p>Pratique sexuelle: {props.sex} </p>
             </div>
 
             <button href="?" class="btn">Profil Complet</button>
