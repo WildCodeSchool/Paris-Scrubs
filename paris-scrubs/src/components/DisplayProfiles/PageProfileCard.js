@@ -42,7 +42,7 @@ class PageProfileCard extends Component {
 
             <main>
       
-        <Modal show={this.state.show} handleClose={this.hideModal}/>
+        <Modal  show={this.state.show} handleClose={this.hideModal}/>
           
     
             <button href="?" class="btn" onClick={this.showModal}>Profil Complet</button>

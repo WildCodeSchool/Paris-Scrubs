@@ -5,9 +5,11 @@
     justify-content: center;
     min-height: 80vh;
     width: 100vw;
+    
 }
 
 .threeButton {
+    
     background: whitesmoke;
     border-radius:50%;
     box-shadow:2px 2px 8px #aaa;

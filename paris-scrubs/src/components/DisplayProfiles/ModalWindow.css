@@ -52,6 +52,7 @@ body {
   -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
   text-align: center;
 }
+
 .containerModal:hover .avatar-flip {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
