@@ -28,20 +28,20 @@ class PageProfileCard extends Component {
 
            
             <div class="PageProfilecard-name">
-                <p>Pseudo: {props.name}</p>
+                <p>Pseudo: {this.props.name}</p>
             </div>
 
            
             <div class="PageProfilecard-title">
-                <h3>Défaut physique: {props.default1}</h3>
+                <h3>Défaut physique: {this.props.default1}</h3>
             </div>
             
             <div class="PageProfilecard-title">
-                <h3>Défaut mental: {props.default2}</h3>
+                <h3>Défaut mental: {this.props.default2}</h3>
             </div>
 
             <div class="PageProfilecard-excerpt">
-                <p>Pratique sexuelle: {props.sex} </p>
+                <p>Pratique sexuelle: {this.props.sex} </p>
             </div>
 
             <main>
