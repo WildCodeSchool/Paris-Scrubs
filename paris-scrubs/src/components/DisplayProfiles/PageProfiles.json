@@ -1,56 +1,281 @@
 [
-    {
-        "default": "Je baille constamment", 
-        "name": "Gégé", 
-        "img": "https://res.cloudinary.com/dzzuxhr3r/image/upload/v1554387593/projet%20Scrub/Ugly-and-Crazy-Men-06.jpg", 
-        "desc": "Tous les membres de ma famille sont atteints par cette incapacité à réprimer les baillements. Grâce à Scrub, j'ai pu trouver la compagne idéale qui tolère de voir constamment le fond de ma gorge ."
-    },
     
-    {
-        
-        "default": "Nous fumons comme des pompiers, notre maison est constamment enfumée",
-        "name": "Magalie et Jérémie, mariés récemment",
-        "img":"https://res.cloudinary.com/dzzuxhr3r/image/upload/v1554387593/projet%20Scrub/ugly1.jpg",
-        "desc": "C'est grâce à Scrub que nous nous sommes rencontrés. Impossible auparavant de trouver quelqu'un qui puisse supporter notre addiction à la cigarette et à tout ce qui se fume en général."
-    },
-
-    {
-        "default": "J'aime me couvrir la peau avec des objets métalliques",
-        "name": "Robert",
-        "img" : "https://res.cloudinary.com/dzzuxhr3r/image/upload/v1554392582/12-strange-people-you-have-to-see-to-believe-1.jpg",
-        "desc": "Couvrir mon corps de couverts me permet de calmer mes angoisses. J'ai pu, grâce à Scrub, rencontrer ma femme d'origine chinoise qui a elle une relation particulière avec les baguettes."
-
-    },
-    
-    {"default": "J'aime les chiens",
-        "name": "Jimmy",
-        "img" : "https://res.cloudinary.com/dzzuxhr3r/image/upload/v1555337052/projet%20Scrub/mecalunettes.jpg",
-        "desc": "Je me sens plus à l'aise avec les chiens qu'avec les femmes"
- },
-    {"default": "J'aime me couvrir la peau avec des objets métalliques",
-    "name": "Robert",
-    "img" : "https://res.cloudinary.com/dzzuxhr3r/image/upload/v1554392582/12-strange-people-you-have-to-see-to-believe-1.jpg",
-    "desc": "Couvrir mon corps de couverts me permet de calmer mes angoisses. J'ai pu, grâce à Scrub, rencontrer ma femme d'origine chinoise qui a elle une relation particulière avec les baguettes."
-},
-    {"default": "J'aime me couvrir la peau avec des objets métalliques",
-    "name": "Robert",
-    "img" : "https://res.cloudinary.com/dzzuxhr3r/image/upload/v1554392582/12-strange-people-you-have-to-see-to-believe-1.jpg",
-    "desc": "Couvrir mon corps de couverts me permet de calmer mes angoisses. J'ai pu, grâce à Scrub, rencontrer ma femme d'origine chinoise qui a elle une relation particulière avec les baguettes."
-},
-    {"default": "J'aime me couvrir la peau avec des objets métalliques",
-    "name": "Robert",
-    "img" : "https://res.cloudinary.com/dzzuxhr3r/image/upload/v1554392582/12-strange-people-you-have-to-see-to-believe-1.jpg",
-    "desc": "Couvrir mon corps de couverts me permet de calmer mes angoisses. J'ai pu, grâce à Scrub, rencontrer ma femme d'origine chinoise qui a elle une relation particulière avec les baguettes."
-},
-    {"default": "J'aime me couvrir la peau avec des objets métalliques",
-    "name": "Robert",
-    "img" : "https://res.cloudinary.com/dzzuxhr3r/image/upload/v1554392582/12-strange-people-you-have-to-see-to-believe-1.jpg",
-    "desc": "Couvrir mon corps de couverts me permet de calmer mes angoisses. J'ai pu, grâce à Scrub, rencontrer ma femme d'origine chinoise qui a elle une relation particulière avec les baguettes."
-},
-    {"default": "J'aime me couvrir la peau avec des objets métalliques",
-    "name": "Robert",
-    "img" : "https://res.cloudinary.com/dzzuxhr3r/image/upload/v1554392582/12-strange-people-you-have-to-see-to-believe-1.jpg",
-    "desc": "Couvrir mon corps de couverts me permet de calmer mes angoisses. J'ai pu, grâce à Scrub, rencontrer ma femme d'origine chinoise qui a elle une relation particulière avec les baguettes."
-}
-    
+      {
+        "username":"Vladimir_Slav",
+        "img":"https://i.pinimg.com/originals/8a/11/a8/8a11a823d86f6fa8a5a64f2c411c4c00.jpg",
+        "age":"28",
+        "gender":"Homme",
+        "physic":"negligent",
+        "mental":"fumeur,alcoolique,Inculte,Inattentif",
+        "food":"omnivore",
+        "sex":"hetero"
+     },
+     {
+        "username":"Peper_lover72",
+        "img":"https://www.myinstants.com/media/instants_images/ainsley.png",
+        "age":"39",
+        "gender":"Homme",
+        "physic":"Calvitie",
+        "mental":"Boulimique,Arrogant,Borné,Égocentrique",
+        "food":"omnivore",
+        "sex":"gay"
+     },
+     {
+        "username":"Didier_L'abeille",
+        "img":"https://i.skyrock.net/7627/4007627/pics/38291404.jpg",
+        "age":"41",
+        "gender":"Homme",
+        "physic":"moche",
+        "mental":"Pervers,Misogyne,Raciste,Macho",
+        "food":"omnivore",
+        "sex":"hetero"
+     },
+     {
+        "username":"Lou_Louping",
+        "img":"https://images.unsplash.com/photo-1546172471-b3a88350b975?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+        "age":"25",
+        "gender":"Homme",
+        "physic":"Poilu",
+        "mental":"Lycanthropie,Misandre",
+        "food":"carnivore",
+        "sex":"Zoophile"
+     },
+     {
+        "username":"Avocadoo35",
+        "img":"http://image.noelshack.com/fichiers/2019/17/2/1556023920-hipster-moche-1.jpg",
+        "age":"30",
+        "gender":"Homme",
+        "physic":"",
+        "mental":"Lunatique,Mégalomane,Susceptible",
+        "food":"vegan",
+        "sex":"gay"
+     },
+     {
+        "username":"Jacky tuning",
+        "img":"https://pbs.twimg.com/profile_images/616547145336909825/RBkYURJ9.jpg",
+        "age":"35",
+        "gender":"Homme",
+        "physic":"Gras",
+        "mental":"Borné,Brute,Immature",
+        "food":"omnivore",
+        "sex":"hetero"
+     },
+     {
+        "username" : "bird man",
+        "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556026289-aime-les-oiseaux.jpg",
+        "age" : "40",
+        "gender" : "Homme",
+        "physic" : "Non renseigné",
+        "mental" : "Adore se faire picorer le corps par les oiseaux",
+        "food" : "Les graines germées, les insectes, les fruits juteux",
+        "sex" : "Attirée par les pervenches (anciennes contractuelles)"
+        },
+        {
+        "username" : "Poiltoutfou",
+        "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556027235-poilu-300-300.jpg",
+        "age" : "39",
+        "gender" : "Homme",
+        "physic" : "Atteint d'Hypertrichose, pilosité abondante",
+        "mental" : "Adore se faire peigner et raser",
+        "food" : "Carnivore",
+        "sex" : "Hétéro"
+        },
+        {
+        "username" : "Chickendale",
+        "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556026713-chicken3.jpg",
+        "age" : "25",
+        "gender" : "Homme",
+        "physic" : "Se trouve trop maigre. Aimerait être plus dodu",
+        "mental" : "Adore faire la poule",
+        "food" : "Herbivore",
+        "sex" : "Aime bien les canards jaunes dans le bain"
+        },
+        {
+            "gender": " Femme",
+            "username": " Mojito",
+            "age": " 27 ans",
+            "physic": "",
+            "mental":" Infantilisme paraphilique",
+            "food": " Nourriture et lait pour bébé",
+            "img":"https://fr.ubergizmo.com/wp-content/uploads/2016/05/film-harley-quinn-femmes-dc-universe-300x300.jpg",
+            "sex":" Asexuelle"
+          },
+          {
+            "gender": " Woman",
+            "username": " Nazuko",
+            "age": " 37 ans",
+            "physic": " Début de calvitie",
+            "mental": "",
+            "food":"",
+            "img":"https://i.pinimg.com/originals/b7/af/89/b7af89776b30f36f8b4dc7e72c92b754.jpg",
+            "sex":" Un homme tatoué ou rien."
+          },
+          {
+            "gender": " Woman",
+            "username":" Paola",
+            "age": " 45 ans",
+            "physic": "",
+            "mental":" Lunatique",
+            "food":"",
+            "img":"https://www.dial24.fr/photo/452067/452067_300.jpg",
+            "sex":" Maîtresse cherche son soumis "
+          },
+          {
+            "gender": "Femme",
+            "username": " Saïda",
+            "age": " 25 ans",
+            "physic": " Dents du bonheur",
+            "mental":" Dysmorphophobie",
+            "food": "",
+            "img":"https://image.noelshack.com/fichiers/2019/17/2/1556023691-dents-du-bonheur-225x300-1.jpg",
+            "sex":""
+          },
+          {
+            "gender": " Femme",
+           "username": " Beurguitte",
+            "age": " 32 ans",
+           "physic": "",
+           "mental":" Je n'aime pas les gens que je ne connais pas, colérique.",
+            "food": "",
+            "img":"https://image.noelshack.com/fichiers/2019/17/2/1556023813-angry-222-1-1.jpg",
+            "sex":" J'aime les jolies femmes"
+          },
+          {
+            "gender": " Femme",
+            "username": " Captain poop",
+            "age": " 22 ans",
+            "physic": " Forte odeur corporelle",
+            "mental":"",
+            "food": " Fish and shit",
+            "img":"https://image.noelshack.com/fichiers/2019/17/2/1556023819-astronauts-could-eat-goo-made-from-poo-1.jpeg",
+            "sex":" Scatophile"
+          },
+          {
+            "gender": " Femme",
+           "username": " Noémie",
+            "age": " 23 ans",
+           "physic": "",
+           "mental":"Troubles bipolaires",
+            "food": "Régime cétogène",
+            "img":"https://image.noelshack.com/fichiers/2019/17/2/1556023825-crazy-psycho-women-telling-her-2.jpg",
+            "sex":""
+          },
+          {
+            "gender": " Femme",
+            "username": " Rodriguez & Michelle",
+            "age": " 65 ans",
+            "physic": "",
+            "mental":" Trouble dissociatif de l'identité, Rodriguez fume le cigare",
+            "food": " Michelle est vegan",
+            "img":"https://image.noelshack.com/fichiers/2019/17/2/1556023828-pot-grandma-1-web-1.jpg",
+            "sex":""
+          },
+          {
+            "gender": "Femme",
+            "username": " Georgette",
+            "age": " 78 ans",
+            "physic": "",
+            "mental":"Syndrome Gilles de la Tourette",
+            "food": "Sauterelles",
+            "img":"https://image.noelshack.com/fichiers/2019/17/2/1556023833-smoking-grandma-1.jpg",
+            "sex":" Cougar pour homme de 30 à 45 ans"
+          },
+          {
+            "username" : "Ada",
+            "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556023103-femalerobot.png",
+            "age" : "18 mois",
+            "gender" : "autre",
+            "physic" : "court circuit",
+            "mental" : "ne comprend pas les lois d'Asimov",
+            "food" : "liquide de refroidissement",
+            "sex" : "sapiosexuel"
+          }
+         ,
+          {
+           "username" : "Barbie",
+           "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556021375-doll-silicone-1.jpg",
+           "age" : "18 ans",
+           "gender" : "autre",
+           "physic" : "fond à la chaleur et peu loquace",
+           "mental" : "candide",
+           "food" : "sperme",
+           "sex" : "tout ce que vous pouvez imaginer"
+          }
+         ,
+          {
+            "username" : "Criniere",
+            "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556022598-centaur-woman.jpg",
+            "age" : "25 ans",
+            "gender" : "autre",
+            "physic" : "culotte de cheval severe",
+            "mental" : "syndrome de la tourette (henissement)",
+            "food" : "flocon d'avoine",
+            "sex" : "la cavaliere"
+          }
+         ,
+          {
+            "username" : "Fish",
+            "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556022905-mermaid-man.jpg",
+            "age" : "43 ans",
+            "gender" : "autre",
+            "physic" : "queue de poisson, pas de vagin et d'anus",
+            "mental" : "memoire de poisson rouge",
+            "food" : "plancton",
+            "sex" : "hameçonnage de la bouche"
+          }
+         ,
+          {
+             "username" : "Oeil pour oeil",
+            "img" :"https://image.noelshack.com/fichiers/2019/17/2/1556021195-cyclops-1.jpg",
+            "age" : "51 ans",
+            "gender" : "autre",
+            "physic" : "conjonctivite chronique",
+            "mental" : "complexé",
+            "food" : "omnivore",
+            "sex" : "voyeurisme"
+          }
+         ,
+          {
+            "username" : "Cheetah",
+            "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556031402-155383-2.jpg",
+            "age" : "18 ans",
+            "gender" : "autre",
+            "physic" : "2% de difference avec l'homme",
+            "mental" : "hysterique",
+            "food" : "vegetarien",
+            "sex" : "homophile"
+          }
+         ,
+          {
+            "username" : "Carott",
+            "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556022124-root.jpg",
+            "age" : "2 semaines",
+            "gender" : "autre",
+            "physic" : "Xeroderma Pigmentosum",
+            "mental" : "se prend pour de la viande et phobie de la soupe",
+            "food" : "mineraux",
+            "sex" : "golden shower"
+          }
+         ,
+          {
+            "username" : "Zorg",
+            "img" : "https://s1.thcdn.com/productimg/300/300/10928476-1494565239365390.jpg",
+            "age" : "479 ans",
+            "gender" : "autre",
+            "physic" : "tourista chronique",
+            "mental" : "autiste schizophrene",
+            "food" : "trippe à la mode de Caen",
+            "sex" : "trou noir"
+          }
+         ,
+          {
+            "username" : "Duke Nukem",
+            "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556027575-duke-1.jpg",
+            "age" : "39 ans",
+            "gender" : "autre",
+            "physic" : "ejaculateur precoce et un seul gros testicule",
+            "mental" : "mysogine",
+            "food" : "junk food",
+            "sex" : "sado maso et bondage"
+          }
 ]

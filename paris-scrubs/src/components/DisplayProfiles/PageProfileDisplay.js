@@ -8,7 +8,7 @@ const PageProfileDisplay = () => {
 <body  className="cardsBody">
 
     <div className="gridcapacity">
-        {PageProfiles.map(PageProfile => < PageProfileCard default={PageProfile.default} name={PageProfile.name} img={PageProfile.img} desc={PageProfile.desc}/>
+        {PageProfiles.map(PageProfile => < PageProfileCard default1={PageProfile.physic} default2={PageProfile.mental} name={PageProfile.username} img={PageProfile.img} sex={PageProfile.sex}/>
  )} 
 
         
