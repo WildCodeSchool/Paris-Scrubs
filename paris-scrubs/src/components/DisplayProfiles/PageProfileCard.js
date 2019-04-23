@@ -1,12 +1,26 @@
-import React from 'react'
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
 import './PageProfileCard.css';
+import './ModalWindow.css'
+import Modal from './ModalWindow'
 
+class PageProfileCard extends Component {
+    state = { show: false };
 
-const PageProfileCard = (props) => {
-    return <div  class="PageProfilecard">
+    showModal = () => {
+      this.setState({ show: true });
+    };
+  
+    hideModal = () => {
+      this.setState({ show: false });
+    };
+  
+    render() {
+        return (
+     <div  class="PageProfilecard">
     <a >
         
-        <div class="PageProfilecard-image"><img src={props.img} alt="" /></div>
+        <div class="PageProfilecard-image"><img src={this.props.img} alt="" /></div>
         
 
         
@@ -30,14 +44,20 @@ const PageProfileCard = (props) => {
                 <p>Pratique sexuelle: {props.sex} </p>
             </div>
 
-            <button href="?" class="btn">Profil Complet</button>
+            <main>
+      
+        <Modal  show={this.state.show} handleClose={this.hideModal}/>
+          
+    
+            <button href="?" class="btn" onClick={this.showModal}>Profil Complet</button>
+        </main>
         </div>
         
     </a>
 </div>
     
-
-
+        );
+        }
 }
 
 
