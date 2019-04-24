@@ -1,11 +1,11 @@
+
 .threeContainer {
-    background: url("https://images3.alphacoders.com/509/5097.jpg") no-repeat center fixed; 
+    background: url("https://image.noelshack.com/fichiers/2019/17/3/1556098392-last.jpg") no-repeat center fixed; 
     background-size: cover;
-    display: flex;
-    justify-content: center;
     min-height: 80vh;
     width: 100vw;
-    
+    display:flex;
+    justify-content:space-around;
 }
 
 .threeButton {
@@ -21,8 +21,10 @@
 }
 
 .threebtn1, .threebtn2, .threebtn3 {
-    margin: 10px;
+    margin: 138px; 
 }
+
+
 
 /*Laptops*/
 @media (min-width: 1024px) and (max-width: 1280px) {
