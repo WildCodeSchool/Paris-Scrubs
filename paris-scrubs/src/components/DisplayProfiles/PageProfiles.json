@@ -91,7 +91,7 @@
         "sex" : "Aime bien les canards jaunes dans le bain"
         },
         {
-            "gender": " Femme",
+            "gender": "Femme",
             "username": " Mojito",
             "age": " 27 ans",
             "physic": "",
@@ -101,7 +101,7 @@
             "sex":" Asexuelle"
           },
           {
-            "gender": " Woman",
+            "gender": "Femme",
             "username": " Nazuko",
             "age": " 37 ans",
             "physic": " Début de calvitie",
@@ -111,7 +111,7 @@
             "sex":" Un homme tatoué ou rien."
           },
           {
-            "gender": " Woman",
+            "gender": "Femme",
             "username":" Paola",
             "age": " 45 ans",
             "physic": "",
@@ -131,9 +131,9 @@
             "sex":""
           },
           {
-            "gender": " Femme",
-           "username": " Beurguitte",
-            "age": " 32 ans",
+            "gender": "Femme",
+           "username": "Beurguitte",
+            "age": "32 ans",
            "physic": "",
            "mental":" Je n'aime pas les gens que je ne connais pas, colérique.",
             "food": "",
@@ -141,7 +141,7 @@
             "sex":" J'aime les jolies femmes"
           },
           {
-            "gender": " Femme",
+            "gender": "Femme",
             "username": " Captain poop",
             "age": " 22 ans",
             "physic": " Forte odeur corporelle",
@@ -151,9 +151,9 @@
             "sex":" Scatophile"
           },
           {
-            "gender": " Femme",
-           "username": " Noémie",
-            "age": " 23 ans",
+            "gender": "Femme",
+           "username": "Noémie",
+            "age": "23 ans",
            "physic": "",
            "mental":"Troubles bipolaires",
             "food": "Régime cétogène",
@@ -161,9 +161,9 @@
             "sex":""
           },
           {
-            "gender": " Femme",
-            "username": " Rodriguez & Michelle",
-            "age": " 65 ans",
+            "gender": "Femme",
+            "username": "Rodriguez & Michelle",
+            "age": "65 ans",
             "physic": "",
             "mental":" Trouble dissociatif de l'identité, Rodriguez fume le cigare",
             "food": " Michelle est vegan",
