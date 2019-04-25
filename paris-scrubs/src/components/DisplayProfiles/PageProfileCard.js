@@ -6,7 +6,7 @@ import Modal from './ModalWindow'
 
 class PageProfileCard extends Component {
     state = { show: false };
-
+ 
     showModal = () => {
       this.setState({ show: true });
     };
