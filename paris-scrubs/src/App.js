@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import Displaypicto from './components/Displaypicto'
-import MonthProfile from './components/MonthProfile';
-import Navbar from './components/navbar';
-import Card from './components/Cards.js'
+
 import './App.css';
 import { Route, BrowserRouter, Switch, NavLink } from 'react-router-dom';
 
