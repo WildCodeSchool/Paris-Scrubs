@@ -15,7 +15,17 @@ class PageProfileCard extends Component {
       this.setState({ show: false });
     };
   
+
+
     render() {
+        const profile = {
+            name : this.props.name,  
+            physic : this.props.default1, 
+            mental : this.props.default2,
+            image : this.props.img,
+            sexe : this.props.sex
+        };   
+        
         return (
      <div  class="PageProfilecard">
     <a >
@@ -46,7 +56,7 @@ class PageProfileCard extends Component {
 
             <main>
       
-        <Modal  show={this.state.show} handleClose={this.hideModal}/>
+        <Modal {...profile} show={this.state.show} handleClose={this.hideModal}/>
           
     
             <button href="?" class="btn" onClick={this.showModal}>Profil Complet</button>
