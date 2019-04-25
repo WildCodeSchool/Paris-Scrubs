@@ -6,7 +6,7 @@ import './ProfilesPage.css'
 import Profilesearchbar from '../components/profilesearchbar';
 import Footer from '../components/Footer'
 
-class ProfilesPage extends React.Component {
+class ProfilesPageOther extends React.Component {
   render() {
     return (
       <>
@@ -35,4 +35,4 @@ class ProfilesPage extends React.Component {
   }
 }
 
-export default ProfilesPage
+export default ProfilesPageOther
