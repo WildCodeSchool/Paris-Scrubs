@@ -4,7 +4,6 @@ import './ThreeButton.css';
 
 const buttons = [
     {
-<<<<<<< HEAD
     man : [ <Link to ="/profilepage"><img src="https://image.noelshack.com/fichiers/2019/17/4/1556190915-men.jpg" alt="" className="threeButton"/></Link>],
     },
     {
@@ -12,15 +11,6 @@ const buttons = [
     },
     {
     other : [ <Link to ="/profilepage"><img src="https://image.noelshack.com/fichiers/2019/17/4/1556191008-others.jpg" alt="" className="threeButton"/></Link>],
-=======
-    man : [ <Link to ="/profilepagemen"><button className="threeButton" type="button">Je cherche un homme</button></Link>],
-    },
-    {
-    woman : [ <Link to ="/profilepagewomen"><button className="threeButton" type="button">Je cherche une femme</button></Link>],
-    },
-    {
-    other : [ <Link to ="/profilepageother"><button className="threeButton" type="button">Je cherche autre chose</button></Link>],
->>>>>>> dev
     },
 ]
 
@@ -37,3 +27,5 @@ const ThreeButton = () => (           // stateless component
 );
 
 export default ThreeButton;   
+
+

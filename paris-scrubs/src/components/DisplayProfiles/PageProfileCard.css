@@ -33,7 +33,7 @@
   
     .PageProfilecard-image img {
       display: block;
-      width: 100%;/*4*/
+      width: 100%;/* 4*/
         /*5 - Méthode de centrage en fonction de la taille de l'image */
       position: absolute;
       top: 50%;

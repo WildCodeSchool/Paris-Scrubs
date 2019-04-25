@@ -85,7 +85,7 @@
           "img" : "https://image.noelshack.com/fichiers/2019/17/4/1556189798-robert.jpg",
           "age" : "34",
           "gender" : "Homme",
-          "physic" : "",
+          "physic" : " ",
           "mental" : "",
           "food" : "",
           "sex" : ""
