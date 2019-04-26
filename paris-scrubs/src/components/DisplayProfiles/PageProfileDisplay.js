@@ -1,7 +1,7 @@
 import React from "react";
 import PageProfiles from "./PageProfiles.json"
 import './PageProfileCard.css';
-import PageProfileCard from './PageProfileCard'
+import PageProfileCard from "./PageProfileCard";
 
 const PageProfileDisplay = () => {
     return (

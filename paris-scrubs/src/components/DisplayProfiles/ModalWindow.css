@@ -12,8 +12,8 @@
   .btn{
     
         position: relative;
-      
-        background: #7FFFD4;
+        color: wheat;
+        background: grey;
       
         text-decoration: none;
         padding: 15px 25px;
@@ -36,12 +36,15 @@ body {
 
 .containerModal {
   position: fixed;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-gap: 50px; 
   width: 80%;
-  height: 82%;
+  height: 60%;
   z-index:1;
-  bottom: 10px;
+  bottom: 25%;
   right: 10%;
-  margin: 120px auto 120px;
+  margin:  0px;
   background-color: #fff;
   padding: 0 20px 20px;
   border-radius: 6px;
@@ -67,10 +70,10 @@ body {
 .avatar-flip {
   border-radius: 100px;
   overflow: hidden;
-  height: 500px;
-  width: 500px;
+  height: 350px;
+  width: 350px;
+  margin-top: 30px;
   position: relative;
-  margin: auto;
   
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -78,15 +81,20 @@ body {
   box-shadow: 0 0 0 13px #f0f0f0;
   -webkit-box-shadow: 0 0 0 13px #f0f0f0;
   -moz-box-shadow: 0 0 0 13px #f0f0f0;
+  text-align: justify;
 }
 
 .avatar-flip img {
   position: absolute;
-  left: 15px;
-  
+  left: 1px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
   top: 0;
   border-radius: 100px;
   transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
   
 }
 .avatar-flip img:first-child {
@@ -98,20 +106,16 @@ body {
   -webkit-transform: rotateY(180deg);
   opacity: 0;
 }
-h2 {
-  font-size: 32px;
+.modalName {
+  font-size: 30px;
   font-weight: 600;
-  margin-bottom: 15px;
+  padding-top: 10px;
   color: #333;
 }
-h4 {
-  font-size: 13px;
-  color: #00baff;
-  letter-spacing: 1px;
-  margin-bottom: 25px
-}
-p {
+.modalDescription {
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 20px;
+  color: #666;
+  text-align: justify;
 }

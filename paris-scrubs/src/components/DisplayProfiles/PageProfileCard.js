@@ -43,11 +43,11 @@ class PageProfileCard extends Component {
 
            
             <div class="PageProfilecard-title">
-                <h3>Défaut physique: {this.props.default1}</h3>
+                <p>Défaut physique: {this.props.default1}</p>
             </div>
             
             <div class="PageProfilecard-title">
-                <h3>Défaut mental: {this.props.default2}</h3>
+                <p>Défaut mental: {this.props.default2}</p>
             </div>
 
             <div class="PageProfilecard-excerpt">
