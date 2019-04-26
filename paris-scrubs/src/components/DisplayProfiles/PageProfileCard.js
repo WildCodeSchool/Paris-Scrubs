@@ -27,30 +27,30 @@ class PageProfileCard extends Component {
         };   
         
         return (
-     <div  class="PageProfilecard">
+     <div  className="PageProfilecard">
     <a >
         
-        <div class="PageProfilecard-image"><img src={this.props.img} alt="" /></div>
+        <div className="PageProfilecard-image"><img src={this.props.img} alt="" /></div>
         
 
         
-        <div class="PageProfilecard-body">
+        <div className="PageProfilecard-body">
 
            
-            <div class="PageProfilecard-name">
+            <div className="PageProfilecard-name">
                 <p>Pseudo: {this.props.name}</p>
             </div>
 
            
-            <div class="PageProfilecard-title">
+            <div className="PageProfilecard-title">
                 <p>Défaut physique: {this.props.default1}</p>
             </div>
             
-            <div class="PageProfilecard-title">
+            <div className="PageProfilecard-title">
                 <p>Défaut mental: {this.props.default2}</p>
             </div>
 
-            <div class="PageProfilecard-excerpt">
+            <div className="PageProfilecard-excerpt">
                 <p>Pratique sexuelle: {this.props.sex} </p>
             </div>
 
