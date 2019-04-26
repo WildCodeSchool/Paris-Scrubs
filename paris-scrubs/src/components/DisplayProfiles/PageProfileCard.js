@@ -6,7 +6,7 @@ import Modal from './ModalWindow'
 
 class PageProfileCard extends Component {
     state = { show: false };
-
+ 
     showModal = () => {
       this.setState({ show: true });
     };
@@ -15,7 +15,17 @@ class PageProfileCard extends Component {
       this.setState({ show: false });
     };
   
+
+
     render() {
+        const profile = {
+            name : this.props.name,  
+            physic : this.props.default1, 
+            mental : this.props.default2,
+            image : this.props.img,
+            sexe : this.props.sex
+        };   
+        
         return (
      <div  class="PageProfilecard">
     <a >
@@ -33,11 +43,11 @@ class PageProfileCard extends Component {
 
            
             <div class="PageProfilecard-title">
-                <h3>Défaut physique: {this.props.default1}</h3>
+                <p>Défaut physique: {this.props.default1}</p>
             </div>
             
             <div class="PageProfilecard-title">
-                <h3>Défaut mental: {this.props.default2}</h3>
+                <p>Défaut mental: {this.props.default2}</p>
             </div>
 
             <div class="PageProfilecard-excerpt">
@@ -46,7 +56,7 @@ class PageProfileCard extends Component {
 
             <main>
       
-        <Modal  show={this.state.show} handleClose={this.hideModal}/>
+        <Modal {...profile} show={this.state.show} handleClose={this.hideModal}/>
           
     
             <button href="?" class="btn" onClick={this.showModal}>Profil Complet</button>

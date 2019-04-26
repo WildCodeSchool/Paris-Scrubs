@@ -2,7 +2,7 @@
     
       {
         "username":"Vladimir_Slav",
-        "img":"https://i.pinimg.com/originals/8a/11/a8/8a11a823d86f6fa8a5a64f2c411c4c00.jpg",
+        "img":"https://image.noelshack.com/fichiers/2019/17/4/1556182463-vladimir.jpg",
         "age":"28",
         "gender":"Homme",
         "physic":"negligent",
@@ -32,7 +32,7 @@
      },
      {
         "username":"Lou_Louping",
-        "img":"https://images.unsplash.com/photo-1546172471-b3a88350b975?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+        "img":"https://image.noelshack.com/fichiers/2019/17/4/1556180156-dog-man.jpg",
         "age":"25",
         "gender":"Homme",
         "physic":"Poilu",
@@ -50,6 +50,16 @@
         "food":"vegan",
         "sex":"gay"
      },
+     {
+      "username":"Gégé",
+      "img":"https://image.noelshack.com/fichiers/2019/17/4/1556189618-gege.jpg",
+      "age":"39",
+      "gender":"Homme",
+      "physic":"",
+      "mental":"",
+      "food":"",
+      "sex":"gay"
+   },
      {
         "username":"Jacky tuning",
         "img":"https://pbs.twimg.com/profile_images/616547145336909825/RBkYURJ9.jpg",
@@ -71,6 +81,16 @@
         "sex" : "Attirée par les pervenches (anciennes contractuelles)"
         },
         {
+          "username" : "Robert",
+          "img" : "https://image.noelshack.com/fichiers/2019/17/4/1556189798-robert.jpg",
+          "age" : "34",
+          "gender" : "Homme",
+          "physic" : " ",
+          "mental" : "",
+          "food" : "",
+          "sex" : ""
+          },
+        {
         "username" : "Poiltoutfou",
         "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556027235-poilu-300-300.jpg",
         "age" : "39",
@@ -80,6 +100,16 @@
         "food" : "Carnivore",
         "sex" : "Hétéro"
         },
+        {
+          "username" : "Jérémie",
+          "img" : "https://image.noelshack.com/fichiers/2019/17/4/1556189545-jeremie.jpg",
+          "age" : "43",
+          "gender" : "Homme",
+          "physic" : "Fumeur",
+          "mental" : "",
+          "food" : "",
+          "sex" : "Hétéro"
+          },
         {
         "username" : "Chickendale",
         "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556026713-chicken3.jpg",
@@ -91,6 +121,16 @@
         "sex" : "Aime bien les canards jaunes dans le bain"
         },
         {
+          "username" : "Nolan",
+          "img" : "https://image.noelshack.com/fichiers/2019/17/4/1556183782-nolan.jpg",
+          "age" : "28",
+          "gender" : "Homme",
+          "physic" : "Ne se lave jamais",
+          "mental" : "Aquaphobie ou la peur de l'eau",
+          "food" : "",
+          "sex" : ""
+          },
+        {
             "gender": " Femme",
             "username": " Mojito",
             "age": " 27 ans",
@@ -101,7 +141,7 @@
             "sex":" Asexuelle"
           },
           {
-            "gender": " Woman",
+            "gender": "Femme",
             "username": " Nazuko",
             "age": " 37 ans",
             "physic": " Début de calvitie",
@@ -111,7 +151,7 @@
             "sex":" Un homme tatoué ou rien."
           },
           {
-            "gender": " Woman",
+            "gender": "Femme",
             "username":" Paola",
             "age": " 45 ans",
             "physic": "",
@@ -131,9 +171,9 @@
             "sex":""
           },
           {
-            "gender": " Femme",
-           "username": " Beurguitte",
-            "age": " 32 ans",
+            "gender": "Femme",
+           "username": "Beurguitte",
+            "age": "32 ans",
            "physic": "",
            "mental":" Je n'aime pas les gens que je ne connais pas, colérique.",
             "food": "",
@@ -141,7 +181,7 @@
             "sex":" J'aime les jolies femmes"
           },
           {
-            "gender": " Femme",
+            "gender": "Femme",
             "username": " Captain poop",
             "age": " 22 ans",
             "physic": " Forte odeur corporelle",
@@ -151,9 +191,9 @@
             "sex":" Scatophile"
           },
           {
-            "gender": " Femme",
-           "username": " Noémie",
-            "age": " 23 ans",
+            "gender": "Femme",
+           "username": "Noémie",
+            "age": "23 ans",
            "physic": "",
            "mental":"Troubles bipolaires",
             "food": "Régime cétogène",
@@ -161,9 +201,9 @@
             "sex":""
           },
           {
-            "gender": " Femme",
-            "username": " Rodriguez & Michelle",
-            "age": " 65 ans",
+            "gender": "Femme",
+            "username": "Rodriguez & Michelle",
+            "age": "65 ans",
             "physic": "",
             "mental":" Trouble dissociatif de l'identité, Rodriguez fume le cigare",
             "food": " Michelle est vegan",
@@ -179,6 +219,26 @@
             "food": "Sauterelles",
             "img":"https://image.noelshack.com/fichiers/2019/17/2/1556023833-smoking-grandma-1.jpg",
             "sex":" Cougar pour homme de 30 à 45 ans"
+          },
+          {
+            "gender": "Femme",
+            "username": "Inès",
+            "age": " 33 ans",
+            "physic": "Complexée par sa face gauche",
+            "mental":"",
+            "food": "",
+            "img":"https://image.noelshack.com/fichiers/2019/17/4/1556184138-ines.jpg",
+            "sex":""
+          },
+          {
+            "gender": "Femme",
+            "username": "Magalie",
+            "age": " 41 ans",
+            "physic": "Fumeuse",
+            "mental":"",
+            "food": "",
+            "img":"https://image.noelshack.com/fichiers/2019/17/4/1556188078-magalie.jpg",
+            "sex":""
           },
           {
             "username" : "Ada",
@@ -278,4 +338,27 @@
             "food" : "junk food",
             "sex" : "sado maso et bondage"
           }
+          ,
+          {
+            "username" : "Nadège",
+            "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556019978-transgender.png",
+            "age" : "44 ans",
+            "gender" : "autre",
+            "physic" : "",
+            "mental" : "",
+            "food" : "",
+            "sex" : ""
+          }
+          ,
+          {
+            "username" : "Aliena",
+            "img" : "https://image.noelshack.com/fichiers/2019/17/2/1556020105-alien.jpg",
+            "age" : "3 mois",
+            "gender" : "autre",
+            "physic" : "",
+            "mental" : "",
+            "food" : "",
+            "sex" : ""
+          }
+          
 ]
