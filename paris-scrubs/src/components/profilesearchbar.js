@@ -8,19 +8,18 @@ class Profilesearchbar extends React.Component {
       
       <div class="filter-container" >
           <h2>Recherche de candidat</h2>
-          
           <div>
-          <ul>
+          <ul className="checkboxes">
                 <li>
-                  <input class="with-gap" type="radio"  />
+                  <input class="with-gap" type="checkbox"  />
                   <label for="Today">Homme</label>
                 </li>
                 <li>
-                  <input class="with-gap" type="radio" />
+                  <input class="with-gap" type="checkbox" />
                   <label for="week">Femme </label>
                 </li>
                 <li>
-                  <input class="with-gap"  type="radio"  />
+                  <input class="with-gap"  type="checkbox"  />
                   <label for="month">Autre</label>
                 </li>
                 <li>
