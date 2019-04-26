@@ -15,9 +15,10 @@
     margin: 1rem auto;
     width: 45vw;
     -webkit-filter: blur(5px);
+
 }
 
-.monthPhoto:hover {
+.monthBox:hover .monthPhoto {
     -webkit-filter: none;
 }
 
@@ -27,20 +28,21 @@
 }
 
 .monthBox p {
-    position: absolute;
+    
     text-align: center;
     z-index: 1;
 }
 
 .monthTitle {
+    position: absolute;
     color: whitesmoke;
     font-size: 2.5rem;
     left: 2em;
     margin-top: -250px;
 }
 
-.monthTitle:hover {
-    visibility: hidden;
+.monthBox:hover .monthTitle{
+    display: none;
 }
 
 .monthName {
