@@ -4,8 +4,6 @@ import {NavLink, Link} from 'react-router-dom'
 
 {/* import navlink which is a react component 
 
- 
-
 <nav className="navbar">
         
         <h1 className="scrubs">SCRUBS</h1>
@@ -41,13 +39,13 @@ const Navbar = () => (
 
     <nav className="navNavbar">
 
-        <NavLink exact to="/"><h1 className="navScrubs">SCRUBS</h1></NavLink>
+        <NavLink className="navLink" exact to="/"><h1 className="navScrubs">SCRUBS</h1></NavLink>
         
         <div className="navMenu">
         
             {navbar.map(navbar => (
                 
-                <p className="navBloc"><NavLink to={navbar.link}>{navbar.text}</NavLink></p>
+                <p className="navBloc"><NavLink className="navLink" to={navbar.link}>{navbar.text}</NavLink></p>
 
               
             ))}

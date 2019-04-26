@@ -23,7 +23,7 @@ const pictograms = [
                   <div className="picto_card3">
                     <img className="image_picto" alt='pictograms' src="http://image.noelshack.com/fichiers/2019/14/5/1554471788-heart.png" ></img>
                     <h3>Vous profitez</h3>
-                    <p>de votre temps libre pour ... <strong>¯\_(ツ)_/¯</strong></p>
+                    <p>de votre temps libre pour trouver la personne qui vous convient</p>
                   </div>
                </div>]
 
