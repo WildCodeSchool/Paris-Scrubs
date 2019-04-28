@@ -32,7 +32,7 @@ const pictograms = [
 
 const Displaypicto = () => (
   <>
-  <h1>Ce que nous proposons chez Scrubs</h1>
+  <h1 id="pictotag">Ce que nous proposons chez Scrubs</h1>
       <div className="picto_contener">
           {pictograms.map(pictogram => ( 
             <div>

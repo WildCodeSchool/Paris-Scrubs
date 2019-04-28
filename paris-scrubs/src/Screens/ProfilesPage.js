@@ -16,7 +16,7 @@ class ProfilesPage extends React.Component {
         <Navbar />
         </header>
         <div className="container">
-        
+       
         <div className="item-1">
         <Profilesearchbar />
         </div>
