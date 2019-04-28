@@ -22,7 +22,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 const navbar = [
     {
         text:"Pourquoi Scrubs ?",
-        link:"#pictotag"
+        link:"/#pictotag"
     },
     {
         text:"Nos profils",
@@ -30,7 +30,7 @@ const navbar = [
     },
     {
         text:"Nos témoignages",
-        link:"#nostemoins"
+        link:"/#nostemoins"
     },
     
 ];
@@ -47,7 +47,7 @@ const Navbar = () => (
         
             {navbar.map(navbar => (
                 
-                <p className="navBloc"><Link className="navLink" to={navbar.link}>{navbar.text}</Link></p>
+                <p className="navBloc"><Link className="navLink" exact to={navbar.link}>{navbar.text}</Link></p>
 
               
             ))}

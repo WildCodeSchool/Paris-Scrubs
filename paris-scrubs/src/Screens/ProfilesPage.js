@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "react-router-dom"
+
 import PageProfileDisplay from "../components/DisplayProfiles/PageProfileDisplay";
 import Navbar from '../components/navbar';
 import './ProfilesPage.css'
