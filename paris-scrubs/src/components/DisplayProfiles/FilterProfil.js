@@ -1,9 +1,7 @@
 import React from "react";
 import PageProfiles from "./PageProfiles.json"
 import PageProfileDisplay from "./PageProfileDisplay"
-import Profilesearchbar from "./components/Profilesearchbar"
-
-
+import Profilesearchbar from "../profilesearchbar"
 
 
 class FilterProfil extends React.Component {
@@ -15,7 +13,7 @@ class FilterProfil extends React.Component {
         this.setState({isLoading: true})
     }
     render() {
-              // this.state.showGender.filter(profile => console.log(profile))
+              this.state.showGender.filter(profile => console.log(profile))
               if (!this.state.isLoading) {
                 return <div>Loading</div>
             } else 
@@ -24,7 +22,7 @@ class FilterProfil extends React.Component {
                     <div className="gridcapacity">
                         yolo
                         {
-                            // PageProfiles.filter( profile => <p>{profile.gender}</p> )
+                            PageProfiles.filter( profile => <p>{profile.gender}</p> )
                         }
                     </div>
                     <Profilesearchbar/>

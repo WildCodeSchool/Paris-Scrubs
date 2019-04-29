@@ -3,6 +3,9 @@ import {NavLink, Link} from 'react-router-dom'
 import './profilesearchbar.css'
 
 class Profilesearchbar extends React.Component {
+      state = {
+        
+      }
     render() {
       return (
       

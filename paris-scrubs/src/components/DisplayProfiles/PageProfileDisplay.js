@@ -6,7 +6,6 @@ import PageProfileCard from "./PageProfileCard";
 const PageProfileDisplay = () => {
     return (
 <body  className="cardsBody">
-
     <div className="gridcapacity">
         {PageProfiles.map(PageProfile => < PageProfileCard default1={PageProfile.physic} default2={PageProfile.mental} name={PageProfile.username} img={PageProfile.img} sex={PageProfile.sex}/>
  )} 
