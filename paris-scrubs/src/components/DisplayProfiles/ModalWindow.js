@@ -9,22 +9,23 @@ const Modal = ({ name, physic, mental, sexe, image, handleClose, show}) => {
          
           <div className="containerModal" >
             <div className="avatar-flip">
-    <img src={image} />
-    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original"/>
-                </div>
-       
-  <h2>{name}</h2>
-  <h4>{physic}</h4>
-  <h4>{mental}</h4>
-  <h4>{sexe}</h4>
-  <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-  <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-  
-  <button className="btn" onClick={handleClose}>close</button>
-     </div>       
+                <img src={image} />
+                <img src={image}/>
             </div>
-        
+
+          <div className="modalProfil">    
+            <h1 className="modalName">{name}</h1>
+            <p className="modalDescription">{physic}</p>
+            <p className="modalDescription">{mental}</p>
+            <p className="modalDescription">{sexe}</p>
+            <p className="modalDescription">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.
+            Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.
+            Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+      
+            <button className="btn" onClick={handleClose}>close</button>
+          </div>       
+          </div>
+      </div>      
     );
   };
-
 export default Modal
