@@ -5,7 +5,7 @@ import Navbar from '../components/navbar';
 import './ProfilesPage.css'
 import Profilesearchbar from '../components/profilesearchbar';
 import Footer from '../components/Footer'
-import FilterProfil from "../components/DisplayProfiles/FilterProfil";
+
 
 class ProfilesPage extends React.Component {
   render() {
@@ -17,13 +17,12 @@ class ProfilesPage extends React.Component {
         <Navbar />
         </header>
         <div className="container">
-        <FilterProfil/>
         <div className="item-1">
         <Profilesearchbar />
         </div>
         
         <div className="item-2">
-        <PageProfileDisplay />
+        {/* <PageProfileDisplay /> */}
         </div>
         </div>
         

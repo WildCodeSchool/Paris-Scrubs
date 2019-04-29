@@ -1,6 +1,5 @@
 import React from "react";
 import PageProfiles from "./PageProfiles.json"
-import FilterProfil from "./FilterProfil"
 import './PageProfileCard.css';
 import PageProfileCard from "./PageProfileCard";
 
