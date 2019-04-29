@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+
 import './PageProfileCard.css';
 import './ModalWindow.css'
 import Modal from './ModalWindow'
@@ -27,8 +27,8 @@ class PageProfileCard extends Component {
         };   
         
         return (
-     <div  className="PageProfilecard">
-    <a >
+     <div  class="PageProfilecard">
+    
         
         <div className="PageProfilecard-image"><img src={this.props.img} alt="" /></div>
         
@@ -63,7 +63,7 @@ class PageProfileCard extends Component {
         </main>
         </div>
         
-    </a>
+    
 </div>
     
         );

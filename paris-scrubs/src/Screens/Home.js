@@ -1,5 +1,5 @@
 import React from "react"
-import { NavLink } from 'react-router-dom'
+
 import Navbar from '../components/navbar';
 import ThreeButton from '../components/ThreeButton.js';
 import Displaypicto from '../components/Displaypicto';
