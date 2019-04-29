@@ -1,5 +1,6 @@
 import React from "react";
 import PageProfiles from "./PageProfiles.json"
+import FilterProfil from "./FilterProfil"
 import './PageProfileCard.css';
 import PageProfileCard from "./PageProfileCard";
 
@@ -8,10 +9,9 @@ const PageProfileDisplay = () => {
 <body  className="cardsBody">
     <div className="gridcapacity">
         {PageProfiles.map(PageProfile => < PageProfileCard default1={PageProfile.physic} default2={PageProfile.mental} name={PageProfile.username} img={PageProfile.img} sex={PageProfile.sex}/>
- )} 
-
-        
+ )}     
     </div>
+    
             
 </body>
       
