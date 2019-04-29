@@ -43,15 +43,15 @@ const footerNav = [
 
 
 const Footer = () =>(
-  <footer className="footerDistributed">
-    {footerSocial.map(footer => (
 
-    <>
-      <div className="footerRight">
-        <a href={footer.li} className="footerIcon" ><img className="footerImg"src={footer.logo}/></a>
-      </div>
-    </>
+  <footer className="footerDistributed">
+        <div className="icon_con">
+         {footerSocial.map(footer => (
+          <div className="footerRight">
+          <a href={footer.li} className="footerIcon" ><img className="footerImg"src={footer.logo}/></a>
+          </div>
     ))}
+      </div>
 
     {footerNav.map(footer => (
      
