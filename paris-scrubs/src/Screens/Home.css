@@ -5,25 +5,5 @@ body {
 .togg {
     margin: 15% 0 65% 95%;
     position: fixed;
-    z-index: 100000;
+    z-index: 10;
 }
-
-/*Laptops*/
-@media screen and (min-width: 1024px) {
-    .burger-container {
-        display: none;
-      }
-}
-  
-/*Tablets, Ipads*/
-@media (min-width: 767px) and (max-width: 1023px) {
-}
-  
-/*Low Resolution Tablets, Mobiles*/
- @media (min-width: 424px) and (max-width: 768px){
-}
-  
-/*Most of the Smartphones Mobiles*/
-@media (min-width: 320px) and (max-width: 423px)  {
-}
-  
