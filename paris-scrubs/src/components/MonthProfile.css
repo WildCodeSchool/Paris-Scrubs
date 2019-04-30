@@ -130,24 +130,30 @@
 @media (min-width: 320px) and (max-width: 480px) {
     .monthContainer {
         flex-flow: column wrap; /*<‘flex-direction’> || <‘flex-wrap’>*/
-        margin: 0;
+    }
+    .monthBox {
+        margin: auto;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        height: 3vw;
     }
     .monthContainer p {
-        font-size: 1.3rem;
-        left: 1.7em;
+        font-size: 1rem;
+        left: 25%;
         margin-top: -140px;
     }
     .monthPhoto {
         height: 70vw;
         object-fit: cover;
-        margin: 1rem auto;
-        width: 90vw;
+        margin: 2rem auto;
+        width: 70vw;
     }
     .monthName, .monthFlaw {
         visibility: hidden;
     }
     .monthLogo {
-        margin-top: -150px;
+        /*margin-top: -150px;*/
+        visibility: hidden;
     }
 }
 
