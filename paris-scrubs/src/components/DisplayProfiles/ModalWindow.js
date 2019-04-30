@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 
 
 const Modal = ({ name, physic, mental, sexe, image, handleClose, show}) => {
