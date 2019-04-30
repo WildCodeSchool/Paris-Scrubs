@@ -78,7 +78,7 @@ class Profilesearchbar extends React.Component {
               return(profile.gender.includes('autre') )
 
               else if (this.state.showFemal || this.state.showMal || this.state.showOther === false) {
-                  return(profile.gender.includes('Femme'))
+                  return(profile.gender.includes('Homme'))
               }
              
             }).map(PageProfile => < PageProfileCard default1={PageProfile.physic} default2={PageProfile.mental} name={PageProfile.username} img={PageProfile.img} sex={PageProfile.sex}/> 

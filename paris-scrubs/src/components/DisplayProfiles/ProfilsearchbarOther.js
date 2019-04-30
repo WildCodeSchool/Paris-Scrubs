@@ -4,6 +4,7 @@ import PageProfiles from './PageProfiles.json'
 import PageProfileCard from './PageProfileCard'
 import './PageProfileCard.css'
 
+
 class Profilesearchbar extends React.Component {
        state = {
          showFemal : false,
@@ -30,23 +31,24 @@ class Profilesearchbar extends React.Component {
           <ul className="checkboxes">
                 <li>
                   <input class="with-gap" type="checkbox" onClick={this.handleShowMal}
-                  
+                  name="other"
                    />
                   <label for="Today">Homme</label>
                 </li>
                 <li>
                   <input class="with-gap" type="checkbox" onClick={this.handleShowFemal}
-                  
+                  name="other"
                    />
                   <label for="week">Femme </label>
                 </li>
                 <li>
                   <input class="with-gap"  type="checkbox" onClick={this.handleShowOther}
-                   />
-                  <label for="month">Autre</label>
+                   name="other" id="other" value="other" />
+                  <label for="other">Autre</label>
                 </li>
                 <li>
-                  <input class="with-gap"  type="radio" />
+
+                  <input class="default"  type="checkbox" />
                   <label for="year">Défault majeur</label>
                 </li>
               </ul>
@@ -78,7 +80,7 @@ class Profilesearchbar extends React.Component {
               return(profile.gender.includes('autre') )
 
               else if (this.state.showFemal || this.state.showMal || this.state.showOther === false) {
-                  return(profile.gender.includes('Femme'))
+                  return(profile.gender.includes('autre'))
               }
              
             }).map(PageProfile => < PageProfileCard default1={PageProfile.physic} default2={PageProfile.mental} name={PageProfile.username} img={PageProfile.img} sex={PageProfile.sex}/> 
@@ -88,6 +90,7 @@ class Profilesearchbar extends React.Component {
               {/* )}      } */} 
           </div>
           </div>
+          
       )
     }
   }
