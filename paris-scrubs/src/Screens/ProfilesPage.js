@@ -7,6 +7,7 @@ import './Home.css';
 import Profilesearchbar from '../components/profilesearchbar';
 import Footer from '../components/Footer';
 
+
 class ProfilesPage extends React.Component {
   render() {
     return (
@@ -16,13 +17,12 @@ class ProfilesPage extends React.Component {
         <Navbar />
         </header>
         <div className="container">
-       
         <div className="item-1">
         <Profilesearchbar />
         </div>
         
         <div className="item-2">
-        <PageProfileDisplay />
+        {/* <PageProfileDisplay /> */}
         </div>
         </div>
         
