@@ -12,6 +12,7 @@ class Profilesearchbar extends React.Component {
          showOther : false,
        }
 
+       
        handleShowFemal = () => {
         this.setState({ showFemal: !this.state.showFemal })
        }

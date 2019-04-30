@@ -11,6 +11,7 @@ class ProfilesPageOther extends React.Component {
   render() {
     return (
       <>
+      
         <div >
         <header>
             <Navbar/>
