@@ -1,8 +1,8 @@
 import React from "react"
 import {NavLink, Link} from 'react-router-dom'
-import PageProfiles from './DisplayProfiles/PageProfiles.json'
-import PageProfileCard from './DisplayProfiles/PageProfileCard'
-import './profilesearchbar.css'
+import PageProfiles from './PageProfiles.json'
+import PageProfileCard from './PageProfileCard'
+import './PageProfileCard.css'
 
 class Profilesearchbar extends React.Component {
        state = {
@@ -36,6 +36,7 @@ class Profilesearchbar extends React.Component {
                 </li>
                 <li>
                   <input class="with-gap" type="checkbox" onClick={this.handleShowFemal}
+                  
                    />
                   <label for="week">Femme </label>
                 </li>
@@ -75,6 +76,10 @@ class Profilesearchbar extends React.Component {
              
               else if (this.state.showOther === true)
               return(profile.gender.includes('autre') )
+
+              else if (this.state.showFemal || this.state.showMal || this.state.showOther === false) {
+                  return(profile.gender.includes('Femme'))
+              }
              
             }).map(PageProfile => < PageProfileCard default1={PageProfile.physic} default2={PageProfile.mental} name={PageProfile.username} img={PageProfile.img} sex={PageProfile.sex}/> 
               )}

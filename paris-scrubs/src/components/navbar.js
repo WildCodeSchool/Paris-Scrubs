@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css";
+import Burger from './Burger'
 import {NavLink} from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link';
 
@@ -32,7 +33,10 @@ const navbar = [
         text:"Nos témoignages",
         link:"/#nostemoins"
     },
-    
+    {
+        text:"Créez votre profil",
+        link:"/FormPage"
+    },
 ];
 
 const Navbar = () => (
@@ -53,6 +57,9 @@ const Navbar = () => (
             ))}
        
         </div>
+
+        <div className="burger-container"><Burger /></div>
+        
     </nav>
 
     </>
