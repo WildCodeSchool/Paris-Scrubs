@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css";
+import Burger from './Burger'
 import {NavLink, Link} from 'react-router-dom'
 
 {/* import navlink which is a react component 
@@ -53,6 +54,9 @@ const Navbar = () => (
             ))}
        
         </div>
+
+        <div className="burger-container"><Burger /></div>
+        
     </nav>
 
     </>
