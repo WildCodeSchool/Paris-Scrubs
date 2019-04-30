@@ -30,7 +30,7 @@ typingChange = event => {
       {/* FILLING AREA 1 : EMAIL*/}      
       
       <div className = "formfillMail"> 
-        <label for="fillMail">
+        <label htmlFor="fillMail">
           Votre Email : &nbsp;
         </label>
         <p>
@@ -44,7 +44,7 @@ typingChange = event => {
       {/* FILLING AREA 2 : LASTNAME/FIRSTNAME*/}      
       
       <div className = "formfillName">
-        <label for="fillName">
+        <label htmlFor="fillName">
           Votre Nom : &nbsp;
         </label>
         <p>
@@ -58,7 +58,7 @@ typingChange = event => {
       {/* FILLING AREA 3 : QUOTE*/}
 
       <div className = "formfillPunchline">
-        <label for="fillPunchline">
+        <label htmlFor="fillPunchline">
           Votre Punchline : &nbsp;
         </label>
         <p>
@@ -73,7 +73,7 @@ typingChange = event => {
 
       <div className="formfillFlaw">
           
-        <label for="fillFlaw">
+        <label htmlFor="fillFlaw">
           Vos Defauts :
         </label>
         
@@ -122,7 +122,7 @@ typingChange = event => {
       
         <div className="formfillDelights">
         
-        <label for="fillDelights">
+        <label htmlFor="fillDelights">
           Vos Plaisirs :
         </label>
           
