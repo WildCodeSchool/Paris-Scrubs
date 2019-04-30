@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import PageProfileDisplayOther from "../components/DisplayProfiles/PageProfileDisplayOther";
 import Navbar from '../components/navbar';
 import './ProfilesPage.css'
 import ProfilsearchbarOther from '../components/DisplayProfiles/ProfilsearchbarOther';
