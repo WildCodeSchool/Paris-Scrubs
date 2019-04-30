@@ -48,14 +48,14 @@ const Footer = () =>(
 
     <>
       <div className="footerRight">
-        <NavLink to={footer.li} className="footerIcon" ><img className="footerImg"src={footer.logo}/></NavLink>
+        <a href={footer.li} className="footerIcon" ><img className="footerImg"src={footer.logo}/></a>
       </div>
     </>
     ))}
 
     {footerNav.map(footer => (
      
-        <div className="footerLeft">  
+        <div className="footerLeft">
           <p className="footerLinks">  
             <NavLink to={footer.link}>{footer.home} </NavLink>
           </p>  

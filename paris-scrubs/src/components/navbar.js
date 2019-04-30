@@ -1,11 +1,10 @@
 import React from "react";
 import "./navbar.css";
 import Burger from './Burger'
-import {NavLink, Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 
 {/* import navlink which is a react component 
-
- 
 
 <nav className="navbar">
         
@@ -24,7 +23,7 @@ import {NavLink, Link} from 'react-router-dom'
 const navbar = [
     {
         text:"Pourquoi Scrubs ?",
-        link:""
+        link:"/#pictotag"
     },
     {
         text:"Nos profils",
@@ -32,9 +31,12 @@ const navbar = [
     },
     {
         text:"Nos témoignages",
-        link:""
+        link:"/#nostemoins"
     },
-    
+    {
+        text:"Créez votre profil",
+        link:"/FormPage"
+    },
 ];
 
 const Navbar = () => (
@@ -42,13 +44,14 @@ const Navbar = () => (
 
     <nav className="navNavbar">
 
-        <NavLink exact to="/"><h1 className="navScrubs">SCRUBS</h1></NavLink>
+        <NavLink className="navLink" exact to="/"><h1 className="navScrubs">SCRUBS</h1></NavLink>
+        
         
         <div className="navMenu">
         
             {navbar.map(navbar => (
                 
-                <p className="navBloc"><NavLink to={navbar.link}>{navbar.text}</NavLink></p>
+                <p className="navBloc"><Link className="navLink" exact to={navbar.link}>{navbar.text}</Link></p>
 
               
             ))}
