@@ -10,7 +10,7 @@ class Profilesearchbar extends React.Component {
          showMal : false,
          showOther : false,
        }
-
+       
        handleShowFemal = () => {
         this.setState({ showFemal: !this.state.showFemal })
        }
