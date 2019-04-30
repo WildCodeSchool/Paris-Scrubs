@@ -34,12 +34,12 @@ class PageProfileDisplay extends Component {
     
     return (
 <body  className="cardsBody">
-
     <div className="gridcapacity">
         {profiles.map(profile => < PageProfileCard default1={profile.physic} default2={profile.mental} name={profile.username} img={profile.img} sex={profile.sex}/>)} 
 
         
     </div>
+    
             
 </body>
     );

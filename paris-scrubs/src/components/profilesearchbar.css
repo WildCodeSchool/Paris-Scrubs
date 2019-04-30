@@ -6,6 +6,7 @@
     margin-left: 30px;
     margin-right: 30px;
     padding: 15px;
+    margin-bottom: 20px;
     /* height: 200px; */
 }
 
@@ -21,3 +22,4 @@
 .checkboxes li {
     padding-left: 25px;
 }
+

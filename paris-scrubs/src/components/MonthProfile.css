@@ -159,4 +159,5 @@
     margin-right: auto;
     pointer-events: none;
     width: 13vmin;   
+    transform:rotate(6deg);
 }
