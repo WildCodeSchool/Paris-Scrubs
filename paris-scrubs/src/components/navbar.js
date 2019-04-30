@@ -32,7 +32,10 @@ const navbar = [
         text:"Nos témoignages",
         link:"/#nostemoins"
     },
-    
+    {
+        text:"Créez votre profil",
+        link:"/FormPage"
+    },
 ];
 
 const Navbar = () => (
