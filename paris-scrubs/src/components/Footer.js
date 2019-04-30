@@ -26,19 +26,22 @@ const footerNav = [
     home: "Selected Profil",
     link:"/profilepage"
   }, 
+  
+  
+] 
+const footerNimp = [
   {
     home: "My Account",
-    link:""
+    link: "https://www.omfgdogs.com/"
   },
-  {
-    home: "Legal Mentions",
-    link:""
-  },
+  
+ 
   {
     home: "Contact Us",
-    link:""
-  },
-] 
+    link: "https://www.omfgdogs.com/"
+  }  
+  
+]
 
 
 
@@ -58,11 +61,15 @@ const Footer = () =>(
         <div className="footerLeft">
           <p className="footerLinks">  
             <NavLink to={footer.link}>{footer.home} </NavLink>
+
           </p>  
         </div>
-        
-      
-       ))}    
+       ))} 
+        <div className="footerLeftDog">
+        {footerNimp.map(footer =>
+          <a className="footerLinksDog"href={footer.link} >{footer.home} </a>
+          )}
+        </div>
   </footer>
 
 )   
