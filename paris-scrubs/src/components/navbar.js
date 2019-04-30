@@ -1,22 +1,23 @@
-import React from "react";
+import React, { Component } from "react";
 import "./navbar.css";
-import {NavLink, Link} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom';
+import Navfunction from "./Navfunction";
 
-{/* import navlink which is a react component 
+// import navlink which is a react component 
 
-<nav className="navbar">
+// <nav className="navbar">
         
-        <h1 className="scrubs">SCRUBS</h1>
+//         <h1 className="scrubs">SCRUBS</h1>
         
-        <ul className="menu">
-            <li><a href="#">Pourquoi Scrubs ?</a></li>
-            <li><a href="#">Nos profils</a></li>
-            <li><a href="#">Nos témoignages</a></li>
-        </ul>
+//         <ul className="menu">
+//             <li><a href="#">Pourquoi Scrubs ?</a></li>
+//             <li><a href="#">Nos profils</a></li>
+//             <li><a href="#">Nos témoignages</a></li>
+//         </ul>
         
-    </nav>
+//     </nav>
 
-*/}
+
 
 const navbar = [
     {
@@ -34,27 +35,65 @@ const navbar = [
     
 ];
 
-const Navbar = () => (
-    <>
 
-    <nav className="navNavbar">
 
-        <NavLink className="navLink" exact to="/"><h1 className="navScrubs">SCRUBS</h1></NavLink>
+
+class Navbar extends Component {
+
+    /* Définition deux state window.pageYOffset et de True */ 
+    /*window.pageYOffset il renvoie le nombre de pixels dans lesquels le document est en train de défiler le long de l'axe vertical (c'est-à-dire vers le haut ou le bas) avec une valeur de 0,0 */
+     state = {
+          prevScrollpos: window.pageYOffset,
+          visible: true
+        }
+      
+    
+      /* Ajoute l'écouteur d'évenement (addEventListener)lorsque le composant est monté */
+    
+      componentDidMount = () => {
+        window.addEventListener("scroll", this.handleScroll);
+      }
+      /* Rétire l'écouteur d'évenements ("removeEventListener") une fois le composant démonté */
+     
+      componentWillUnmount = () => {
+        window.removeEventListener("scroll", this.handleScroll);
+      }
+    
+    
+     /* Function pour Masquer ou afficher le menu */
+    
+      handleScroll = () => {
+    
+        /* Destructuration de la state prevScrollpos pour reprendre son Nom dans une variable */ 
+        const { prevScrollpos } = this.state;
         
-        <div className="navMenu">
+        /* Création de la variable currentScrollPos qui contient la state "window.pageYOffset" */
+        const currentScrollPos = window.pageYOffset;
+    
+        /* Constante qui dit que prevScrollpos > currentScrollPos soit que window.pageYOffset est supérieur à window.pageYOffset*/ 
+        const visible = prevScrollpos > currentScrollPos;
+    
+        this.setState({
+          prevScrollpos: currentScrollPos,
+          visible
+        });
+      };
         
-            {navbar.map(navbar => (
-                
-                <p className="navBloc"><NavLink className="navLink" to={navbar.link}>{navbar.text}</NavLink></p>
-
-              
-            ))}
-       
-        </div>
-    </nav>
-
-    </>
-
-);
-
-export default Navbar;
+        render() {
+        return (
+          <div>
+          <nav className="navNavbar">
+         <NavLink className="navLink" exact to="/"><h1 className="navScrubs">SCRUBS</h1></NavLink>
+         <div className="navMenu">
+          {navbar.map(navbar => (
+          <p className="navBloc"><NavLink className="navLink" to={navbar.link}>{navbar.text}</NavLink></p>
+          ))}
+          </div>
+          </nav>
+          <Navfunction visible={!this.state.visible} />
+          </div>
+      );
+     }
+    }
+    
+    export default Navbar;

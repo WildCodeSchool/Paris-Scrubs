@@ -1,0 +1,62 @@
+
+/* Css qui définit la Div container qui contient le bouton*/
+
+#clicksearchbar {
+    width: 100%;
+    height: 100%;
+  }
+
+ 
+/* keyframes pour créer un effet shadow sur le bouton, ainsi que des transitions de couleur sur le bouton et le texte à l'intérieur du bouton */ 
+/* 4 keyframes pour chaque navigateur afin qu'il soit compatible partout */ 
+
+  @-webkit-keyframes glowing {
+    0% { background-color: rgb(243, 10, 126); -webkit-box-shadow: 0 0 40px rgb(243, 10, 126); }
+    50% { background-color: rgb(243, 10, 126); -webkit-box-shadow: 0 0 40pxrgb(243, 10, 126); }
+    100% { background-color: rgb(243, 10, 126); -webkit-box-shadow: 0 0 40px rgb(243, 10, 126); }
+  }
+  
+  @-moz-keyframes glowing {
+    0% { background-color: rgb(243, 10, 126); -webkit-box-shadow: 0 0 40px rgb(243, 10, 126); }
+    50% { background-color: rgb(243, 10, 126); -webkit-box-shadow: 0 0 40pxrgb(243, 10, 126); }
+    100% { background-color: rgb(243, 10, 126); -webkit-box-shadow: 0 0 40px rgb(243, 10, 126); }
+  }
+  
+  @-o-keyframes glowing {
+    0% { background-color: rgb(243, 10, 126); box-shadow: 0 0 100px rgb(243, 10, 126); }
+    50% { background-color: rgb(243, 10, 126); box-shadow: 0 0 100px rgb(243, 10, 126); }
+    100% { background-color: rgb(243, 10, 126); box-shadow: 0 0 1000px rgb(243, 10, 126); }
+  }
+  /* de 0 à 100 % sert pour palier la transition de couleurs! les propriétes et leur couleurs sont définies pour chaque paliers*/ 
+  @keyframes glowing {
+    0% { background-color: rgb(243, 10, 126); box-shadow: 0 0 100px rgb(62, 243, 17); }
+    50% { background-color: rgb(243, 10, 126); box-shadow: 0 0 100px  rgb(62, 243, 17); color: rgba(255, 17, 0, 0.281);}
+    100% { background-color: rgb(243, 10, 126); box-shadow: 0 0 1000px rgb(62, 243, 17); color: rgb(64, 250, 195);}
+  }
+
+
+  /* Css du bouton  de recherche Candidats*/
+.buttoncss{
+  height: 150px; 
+  width: 550px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: rgb(24, 22, 158);
+  font-size: 45px;
+  font-weight: bolder;
+  text-decoration: blink;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1.5s infinite;
+  -moz-animation: glowing 1.5s infinite;
+  -o-animation: glowing 1.5s infinite;
+  animation: glowing 1.5s infinite;
+}
+
+
+  
