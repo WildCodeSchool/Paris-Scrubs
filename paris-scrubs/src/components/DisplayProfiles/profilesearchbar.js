@@ -1,8 +1,9 @@
 import React from "react"
 import {NavLink, Link} from 'react-router-dom'
 
-import PageProfileCard from './DisplayProfiles/PageProfileCard'
+import PageProfileCard from './PageProfileCard'
 import './profilesearchbar.css'
+
 
 class Profilesearchbar extends React.Component {
        state = {
@@ -40,7 +41,8 @@ class Profilesearchbar extends React.Component {
     render() {
       const { profiles } = this.state
       return (
-      <div>
+      
+      <div >
       <div class="filter-container" >
           <h2>Recherche de candidat</h2>
           <div>
@@ -68,7 +70,8 @@ class Profilesearchbar extends React.Component {
               </ul>
             </div>
             </div>
-
+            
+          
           <div className="gridcapacity">
              {profiles.filter(profile => {
 
