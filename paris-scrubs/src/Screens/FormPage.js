@@ -1,7 +1,7 @@
 import React from "react"
 
 import Navbar from '../components/navbar';
-import FormFill from '../components/FormFill';
+import FormFillES5 from '../components/FormFillES5';
 import Footer from '../components/Footer'
 import './ProfilesPage.css'
 
@@ -11,11 +11,10 @@ class FormPage extends React.Component {
       <>
         <div >
             <header>
-            
-            <Navbar />
+              <Navbar />
             </header>
 
-            <FormFill />
+            <FormFillES5 />
             
             <footer>
                 <Footer />
