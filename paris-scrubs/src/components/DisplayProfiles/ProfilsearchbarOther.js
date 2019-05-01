@@ -1,6 +1,6 @@
 import React from "react"
 import {NavLink, Link} from 'react-router-dom'
-import PageProfiles from './PageProfiles.json'
+
 import PageProfileCard from './PageProfileCard'
 import './PageProfileCard.css'
 
@@ -10,6 +10,7 @@ class Profilesearchbar extends React.Component {
          showFemal : false,
          showMal : false,
          showOther : false,
+         profiles: []
        }
 
        handleShowFemal = () => {
@@ -22,7 +23,27 @@ class Profilesearchbar extends React.Component {
          this.setState({ showOther: !this.state.showOther })
        }
 
+
+       getProfile = () => {
+        // Récupération des profils via fetch
+        fetch("https://discaz.github.io/API-profiles/api/all.json")
+          .then(response  =>  response.json())
+          .then(result  => console.log(result) ||
+            // mise à jour de la state avec les nouvelles données
+            this.setState({
+              profiles:  result 
+            }))
+        };
+    
+    componentDidMount() {
+        this.getProfile()
+      }
+
+
+
     render() {
+      const { profiles } = this.state
+      
       return (
       <div>
       <div class="filter-container" >
@@ -56,7 +77,7 @@ class Profilesearchbar extends React.Component {
             </div>
 
           <div className="gridcapacity">
-             {PageProfiles.filter(profile => {
+             {profiles.filter(profile => {
 
             if(this.state.showFemal && this.state.showMal && this.state.showOther === true) {
             return(profile.gender.includes('Femme') + profile.gender.includes('Homme') + profile.gender.includes('autre') )}
@@ -83,7 +104,7 @@ class Profilesearchbar extends React.Component {
                   return(profile.gender.includes('autre'))
               }
              
-            }).map(PageProfile => < PageProfileCard default1={PageProfile.physic} default2={PageProfile.mental} name={PageProfile.username} img={PageProfile.img} sex={PageProfile.sex}/> 
+            }).map(profile => < PageProfileCard default1={profile.physic} default2={profile.mental} name={profile.username} img={profile.img} sex={profile.sex}/> 
               )}
              
              {/* { .map(PageProfile => < PageProfileCard default1={PageProfile.physic} default2={PageProfile.mental} name={PageProfile.username} img={PageProfile.img} sex={PageProfile.sex}/> */}
