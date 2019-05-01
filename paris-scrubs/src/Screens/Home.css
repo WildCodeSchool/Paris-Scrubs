@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+.togg {
+    margin: 15% 0 65% 95%;
+    position: fixed;
+    z-index: 10;
+}

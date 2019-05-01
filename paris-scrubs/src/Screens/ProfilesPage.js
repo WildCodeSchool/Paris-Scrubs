@@ -2,9 +2,11 @@ import React from "react"
 
 import PageProfileDisplay from "../components/DisplayProfiles/PageProfileDisplay";
 import Navbar from '../components/navbar';
-import './ProfilesPage.css'
-import Profilesearchbar from '../components/profilesearchbar';
-import Footer from '../components/Footer'
+import './ProfilesPage.css';
+import './Home.css';
+import Profilesearchbar from '../components/DisplayProfiles/profilesearchbar';
+import Footer from '../components/Footer';
+
 
 class ProfilesPage extends React.Component {
   render() {
@@ -12,17 +14,15 @@ class ProfilesPage extends React.Component {
       <>
         <div >
         <header>
-        
         <Navbar />
         </header>
         <div className="container">
-       
         <div className="item-1">
         <Profilesearchbar />
         </div>
         
         <div className="item-2">
-        <PageProfileDisplay />
+        {/* <PageProfileDisplay /> */}
         </div>
         </div>
         

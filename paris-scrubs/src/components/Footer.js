@@ -26,43 +26,50 @@ const footerNav = [
     home: "Selected Profil",
     link:"/profilepage"
   }, 
+  
+  
+] 
+const footerNimp = [
   {
     home: "My Account",
-    link:""
+    link: "https://www.omfgdogs.com/"
   },
-  {
-    home: "Legal Mentions",
-    link:""
-  },
+  
+ 
   {
     home: "Contact Us",
-    link:""
-  },
-] 
+    link: "https://www.omfgdogs.com/"
+  }  
+  
+]
 
 
 
 const Footer = () =>(
-  <footer className="footerDistributed">
-    {footerSocial.map(footer => (
 
-    <>
-      <div className="footerRight">
-        <a href={footer.li} className="footerIcon" ><img className="footerImg"src={footer.logo}/></a>
-      </div>
-    </>
+  <footer className="footerDistributed">
+        <div className="icon_con">
+         {footerSocial.map(footer => (
+          <div className="footerRight">
+          <a href={footer.li} className="footerIcon" ><img className="footerImg"src={footer.logo}/></a>
+          </div>
     ))}
+      </div>
 
     {footerNav.map(footer => (
      
         <div className="footerLeft">
           <p className="footerLinks">  
             <NavLink to={footer.link}>{footer.home} </NavLink>
+
           </p>  
         </div>
-        
-      
-       ))}    
+       ))} 
+        <div className="footerLeftDog">
+        {footerNimp.map(footer =>
+          <a className="footerLinksDog"href={footer.link} >{footer.home} </a>
+          )}
+        </div>
   </footer>
 
 )   

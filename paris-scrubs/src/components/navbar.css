@@ -11,7 +11,8 @@ body{
 }
 
 .navNavbar{
-  position:fixed;
+  /*position:fixed;*/
+  position: relative;
   z-index: 1;
   top:0;
   left:0;
@@ -94,7 +95,42 @@ h1{
       text-align:center;
       width: 80%;
   }
-
- 
-
 }
+
+.burger-container {
+  height: 100%;
+  background: #eee;
+  z-index: 2;
+}
+
+/*Laptops*/
+@media screen and (min-width: 1024px) {
+  .burger-container {
+    display: none;
+    }
+  }
+  
+  /*Tablets, Ipads*/
+  @media (min-width: 767px) and (max-width: 1023px) {
+    .burger-container {
+      display: none;
+    }
+  }
+  
+  /*Low Resolution Tablets, Mobiles*/
+  @media (min-width: 424px) and (max-width: 768px){
+    .navMenu {
+      display: none;
+    }
+  }
+  
+  /*Most of the Smartphones Mobiles*/
+  @media (min-width: 320px) and (max-width: 423px) {
+    .navMenu {
+      display: none;
+    }
+    .navScrubs {
+      font-size: 1.7rem;
+      margin-top: -1rem;
+    }
+  }
