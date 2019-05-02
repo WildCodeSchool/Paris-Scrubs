@@ -91,7 +91,7 @@ a.footerLinksDog {
 	color: aquamarine !important;	
  }
 
-@media (max-width: 600px) {
+ @media screen and (max-width: 479px) {
 
 	.footerDistributed .footerLeft,
 	.footerDistributed .footerRight{
