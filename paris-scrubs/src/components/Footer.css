@@ -89,16 +89,10 @@ a.footerLinksDog {
 }
 .footerLeftDog a:hover{
 	color: aquamarine !important;	
-	
-   
  }
 
-
-
-
-
-@media (max-width: 600px) {
-
+ @media screen and (max-width: 479px) {
+	
 	.footerDistributed .footerLeft,
 	.footerDistributed .footerRight{
 		text-align: center;

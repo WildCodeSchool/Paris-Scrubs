@@ -1,6 +1,6 @@
 .cardsBody {
     background: hsl(0, 0%, 90%);
-    margin-top: 2rem;
+    margin-top: 8rem;
 }
 
 .cardsBody h1 {
@@ -28,6 +28,7 @@
 	background: white;
     margin-bottom: 2em;
     margin: 10px;	
+    box-shadow: 0px 5px 20px #999;
 }
 
 .cardsCard-content {
@@ -59,6 +60,7 @@
    
  }
 
+ 
 
  /* Media Queries */
 

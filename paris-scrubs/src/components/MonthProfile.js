@@ -1,6 +1,8 @@
 import React from 'react';
 import eyeLogo from '../eyeLogo.svg';
 import './MonthProfile.css';
+import {Link} from 'react-router-dom'
+
 
 const profiles = [
     {
@@ -8,12 +10,14 @@ const profiles = [
     firstName : "Nolan",
     flaw : "Aquaphobie ou la peur de l'eau et ne se lave jamais",
     button : "Voir le profil de ", 
+    link:"/profilepage"
     },
     {
     photo :"https://images.unsplash.com/photo-1528960393052-3d5a27ac0cf2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80",
     firstName : "Inès",
     flaw : "Complexée par sa face gauche",
     button : "Voir le profil de ",
+    link: "/profilepagewomen"
     },
 ]
 
@@ -23,14 +27,15 @@ const MonthProfile = () => (
         <div>
             <div className="monthBox">
                 <img src={profile.photo} alt="photo" className="monthPhoto"/>
-                <p className="monthTitle">SUPER DEFAUT DU MOIS</p>
+                <p className="monthTitle">SUPER DEFAUT DU MOIS  <p className="monthFlaw">{profile.flaw}</p></p>
+                
             </div>
         <br />
-        <span className="monthFlaw">{profile.flaw}</span>
+       
         <br />
         <span className="monthName"><strong>{profile.firstName}</strong></span>
         <br />
-        <a href=""><img src={eyeLogo} className="monthLogo" alt="logo" /></a>
+        <Link exact to={profile.link}><img src={eyeLogo} className="monthLogo" alt="logo" /></Link>
         </div>
         ))}
     </div>

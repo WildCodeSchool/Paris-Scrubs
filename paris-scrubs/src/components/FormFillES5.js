@@ -1,29 +1,33 @@
 import React from "react";
 import "./FormFill.css"
 
-class FormFilm extends React.Component {
-
-state = {
-    username: '',
-    img: '',
-    age: '',
-    gender: '...un homme, une femme ou une chose ? ',
-    physic: '',
-    mental: '',
-    food:'',
-    sex:'',
-    }
+class FormFilmES5 extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            username: '',
+            img: '',
+            age: '',
+            gender: '...un homme, une femme ou une chose ? : ',
+            physic: '',
+            mental: '',
+            food:'',
+            sex:'',
+            }
+            this.onChange = this.onChange.bind(this);
+            this.submitForm = this.submitForm.bind(this);
+        }
     
 
     //Création de la méthode "onChange"
-    onChange = e => {
+    onChange(e) {
         this.setState({
             [e.target.name]: e.target.value,
         });
     }
 
     //Création de la méthode de soumission du formulaire
-    submitForm = e => {
+    submitForm(e) {
         e.preventDefault();
 
             //Création de la configuration appelée par le "fetch"
@@ -58,14 +62,14 @@ state = {
     render() {
         return (
             <div className="FormProfil">
-                <h1>Créer votre profil</h1>
+                <h2 className="center">Créer votre profil</h2>
 
-                <h2>Et lâchez-vous ou on va vous jeter !!!</h2>
+                <h3 className="center">Et lâchez-vous ou on va vous jeter !!!</h3>
 
                 <form onSubmit={this.submitForm}>
 
                 <fieldset>
-                    <legend className="legend">Allez ! On nous donne gentiment son identité...</legend>
+                    <legend className="legend">Allez ! Donnez-nous gentiment votre identité...</legend>
                     
                     {/* SURNOM */}
                     <div className="form-data">
@@ -114,13 +118,14 @@ state = {
                         value={this.state.age}
                     />
                     </div>
+                
                 </fieldset>
 
                 <section className="height"></section>
 
                 <fieldset>
 
-                    <legend className="legend">Décrivez-nous vos défauts dont vous êtes le plus fier</legend>
+                    <legend className="legend">Décrivez-nous vos défauts dont vous êtes le plus fier </legend>
 
                     {/* DEFAUT PHYSIQUE */}
                     <div className="form-data">
@@ -193,4 +198,4 @@ state = {
 
 }
 
-export default FormFilm;
+export default FormFilmES5;

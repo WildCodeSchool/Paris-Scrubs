@@ -10,12 +10,12 @@
 }
 
 .monthPhoto {
+    box-shadow: 0px 5px 20px #999;
     height: 35vw;
     object-fit: cover;
     margin: 1rem auto;
     width: 45vw;
     -webkit-filter: blur(5px);
-
 }
 
 .monthBox:hover .monthPhoto {
@@ -28,7 +28,6 @@
 }
 
 .monthBox p {
-    
     text-align: center;
     z-index: 1;
 }
@@ -45,14 +44,17 @@
     display: none;
 }
 
-.monthName {
-    font-family: 'Dokdo', cursive;
+.monthName { 
+    font-family: 'Dokdo', cursive !important;
     font-size: 3rem;
 }
 
 .monthFlaw {
+    position: absolute;
     font-family: 'Cabin Condensed', sans-serif;
     font-size: 2rem;
+    color: #007489;
+    
 }
 
 @media screen and (min-width: 2559px) {

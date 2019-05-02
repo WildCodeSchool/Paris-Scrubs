@@ -49,11 +49,14 @@ class Profilesearchbar extends React.Component {
       return (
       
       <div>
+<<<<<<< HEAD
       <button className= "buttoncss" type="button" onClick={this.handleClick}>
       {this.state.visibility ? "RETOUR" : "RECHERCHE CANDIDAT"}</button>
       <div id="clicksearchbar">
       <div id="navbar" className={this.state.visibility ? "slideIn" : "slideOut"}>
 
+=======
+>>>>>>> dev
       <div class="filter-container" >
           <h2>Filtrer la recherche</h2>
           <div>
