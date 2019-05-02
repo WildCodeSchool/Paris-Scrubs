@@ -10,6 +10,7 @@ class Profilesearchbar extends React.Component {
          showFemal : false,
          showMal : false,
          showOther : false,
+         visibility: false,
          profiles: []
        }
 
@@ -35,6 +36,11 @@ class Profilesearchbar extends React.Component {
             }))
         };
     
+ /* Fonction pour changer la state en True donc l'état du bouton recherche Candidat*/
+ handleClick = () => {
+  this.setState ({ visibility: !this.state.visibility });
+}
+
     componentDidMount() {
         this.getProfile()
       }
@@ -46,8 +52,14 @@ class Profilesearchbar extends React.Component {
       
       return (
       <div>
+      
+      <button className= "buttoncss" type="button" onClick={this.handleClick}>
+      {this.state.visibility ? "RETOUR" : "RECHERCHE CANDIDAT"}</button>
+      <div id="clicksearchbar">
+      <div id="navbar" className={this.state.visibility ? "slideIn" : "slideOut"}>
+
       <div class="filter-container" >
-          <h2>Recherche de candidat</h2>
+          <h2>Filtrer la recherche</h2>
           <div>
           <ul className="checkboxes">
                 <li>
@@ -75,7 +87,8 @@ class Profilesearchbar extends React.Component {
               </ul>
             </div>
             </div>
-
+            </div>
+            </div>
           <div className="gridcapacity">
              {profiles.filter(profile => {
 

@@ -1,13 +1,9 @@
 import React, { Component } from "react";
 import "./navbar.css";
-<<<<<<< HEAD
-import { NavLink, Link } from 'react-router-dom';
-import Navfunction from "./Navfunction";
-=======
 import Burger from './Burger'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
->>>>>>> dev
+import Navfunction from "./Navfunction";
 
 // import navlink which is a react component 
 
@@ -26,21 +22,6 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 
 const navbar = [
-<<<<<<< HEAD
-  {
-    text: "Pourquoi Scrubs ?",
-    link: ""
-  },
-  {
-    text: "Nos profils",
-    link: "/profilepage"
-  },
-  {
-    text: "Nos témoignages",
-    link: ""
-  },
-
-=======
     {
         text:"Pourquoi Scrubs ?",
         link:"/#pictotag"
@@ -57,12 +38,10 @@ const navbar = [
         text:"Créez votre profil",
         link:"/FormPage"
     },
->>>>>>> dev
 ];
 
 
 
-<<<<<<< HEAD
 
 class Navbar extends Component {
 
@@ -73,25 +52,6 @@ class Navbar extends Component {
     visible: true
   }
 
-=======
-        <NavLink className="navLink" exact to="/"><h1 className="navScrubs">SCRUBS</h1></NavLink>
-        
-        
-        <div className="navMenu">
-        
-            {navbar.map(navbar => (
-                
-                <p className="navBloc"><Link className="navLink" exact to={navbar.link}>{navbar.text}</Link></p>
-
-              
-            ))}
-       
-        </div>
-
-        <div className="burger-container"><Burger /></div>
-        
-    </nav>
->>>>>>> dev
 
   /* Ajoute l'écouteur d'évenement (addEventListener)lorsque le composant est monté */
 
@@ -134,15 +94,19 @@ class Navbar extends Component {
 
           <div className="navMenu">
             {navbar.map(navbar => (
-              <p className="navBloc"><NavLink className="navLink" to={navbar.link}>{navbar.text}</NavLink></p>
+              <p className="navBloc"><Link className="navLink" to={navbar.link}>{navbar.text}</Link></p>
             ))}
           </div>
-        </nav>
         
         <Navfunction visible={!this.state.visible} />
+        <div className="burger-container"><Burger /></div>
+        </nav>
       </div>
     );
   }
 }
 
 export default Navbar;
+
+
+ 

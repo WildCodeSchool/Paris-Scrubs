@@ -15,11 +15,8 @@ class ProfilesPageOther extends React.Component {
         <header>
             <Navbar/>
         </header>
-<<<<<<< HEAD
-        <Clicksearchbar />
-=======
+      
 
->>>>>>> dev
         <div className="container">
         
         <div className="item-1">

@@ -8,7 +8,7 @@
     height: 150px;
     padding: 20px;
     font-family: sans-serif;
-    background: -moz-linear-gradient(right,rgb(255, 15, 183),rgb(241, 62, 188),rgb(226, 86, 184),rgb(238, 153, 212),rgb(240, 189, 225),rgb(250, 218, 240),rgb(250, 249, 250));
+    background: -moz-linear-gradient(right,#007489,rgb(241, 62, 188),rgb(226, 86, 184),rgb(238, 153, 212),rgb(240, 189, 225),rgb(250, 218, 240),rgb(250, 249, 250));
     background: -webkit-linear-gradient(right,rgb(255, 15, 183),rgb(241, 62, 188),rgb(226, 86, 184),rgb(238, 153, 212),rgb(240, 189, 225),rgb(250, 218, 240),rgb(250, 249, 250));
     background: -ms-linear-gradient(right,rgb(255, 15, 183),rgb(241, 62, 188),rgb(226, 86, 184),rgb(238, 153, 212),rgb(240, 189, 225),rgb(250, 218, 240),rgb(250, 249, 250));
     background: -o-linear-gradient(right,rgb(255, 15, 183),rgb(241, 62, 188),rgb(226, 86, 184),rgb(238, 153, 212),rgb(240, 189, 225),rgb(250, 218, 240),rgb(250, 249, 250));
@@ -21,13 +21,15 @@
   /* Css du Slide pour le faire défiler */
   #navbar.slideIn {
     transform: translateX(0);
-    background-color: black;
+    margin-top: 55px;
+    margin-bottom: 75px;
   }
 
   
   /* Css du Slide pour le replier */
   #navbar.slideOut {
     transform: translateX(-100%);
-    background-color: black;
+    margin-top: 55px;
+    margin-bottom: 75px;
   }
   

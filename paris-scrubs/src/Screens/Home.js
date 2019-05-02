@@ -14,22 +14,12 @@ class Home extends React.Component {
     return (
         <div className="home">
         <header className="App-header">
-<<<<<<< HEAD
-        
-          <Navbar />
-         
-=======
         <Navbar />
->>>>>>> dev
         <ThreeButton />
         </header>
         <Displaypicto  />
         <MonthProfile />
         <Card />
-<<<<<<< HEAD
-        
-=======
->>>>>>> dev
         <Footer />
         </div>
 
