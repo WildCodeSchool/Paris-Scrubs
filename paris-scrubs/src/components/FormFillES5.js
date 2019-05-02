@@ -62,14 +62,14 @@ class FormFilmES5 extends React.Component {
     render() {
         return (
             <div className="FormProfil">
-                <h1>Créer votre profil</h1>
+                <h2 className="center">Créer votre profil</h2>
 
-                <h2>Et lâchez-vous ou on va vous jeter !!!</h2>
+                <h3 className="center">Et lâchez-vous ou on va vous jeter !!!</h3>
 
                 <form onSubmit={this.submitForm}>
 
                 <fieldset>
-                    <legend className="legend">Allez ! On nous donne gentiment son identité...</legend>
+                    <legend className="legend">Allez ! Donnez-nous gentiment votre identité...</legend>
                     
                     {/* SURNOM */}
                     <div className="form-data">

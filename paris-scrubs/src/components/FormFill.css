@@ -7,6 +7,10 @@
     color: white;
 }
 
+.center {
+    text-align: center;
+}
+
 .FormProfil {
     width: 700px;
     margin: 0 auto;
@@ -35,10 +39,24 @@
    }
 
 
-    @media screen and (min-width: 480px) and (max-width: 959px) {
-               
+    
+
+    /*Laptops*/
+    @media (min-width: 1024px) and (max-width: 1280px) {
+
     }
 
-    @media screen and (max-width: 479px) {
+    /*Tablets, Ipads*/
+    @media (min-width: 767px) and (max-width: 1023px) {
+
+    }
+
+    /*Low Resolution Tablets, Mobiles*/
+    @media (min-width: 424px) and (max-width: 768px){
+
+    }
+
+    /*Most of the Smartphones Mobiles*/
+    @media (min-width: 320px) and (max-width: 423px) {
 
     }

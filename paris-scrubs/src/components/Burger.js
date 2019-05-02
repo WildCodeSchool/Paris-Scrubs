@@ -1,4 +1,5 @@
 import React from 'react';
+import "./navbar.css";
 import './Burger.scss';
 import {NavLink, Link} from 'react-router-dom';
 
@@ -15,11 +16,11 @@ class Burger extends React.Component {
     this.state = { 
       on: false,
       menus : [
-        { name: 'Accueil', url: '' },
-        { name: 'Pourquoi Scrubs ?', url: '' },
-        { name: 'Nos profils', url: '' }, 
-        { name: 'Nos témoignages', url: '' },
-        { name: 'Créez votre profil', url: ''}
+        { name: <Link className="navLink" exact to="/">Accueil</Link>, url: '' },
+        /*{ name: <Link className="navLink" to="/#pictotag">Pourquoi Scrubs ?</Link>, url: '' },*/
+        { name: <Link className="navLink" to="/profilepage">Nos profils</Link>, url: '' }, 
+        /*{ name: <Link className="navLink" to="/#nostemoins">Nos témoignages</Link>, url: '' },*/
+        { name: <Link className="navLink" to="/FormPage">Créez votre profil</Link>, url: ''}
       ]
     }
   }
