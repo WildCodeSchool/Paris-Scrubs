@@ -15,48 +15,81 @@
     width: 700px;
     margin: 0 auto;
     text-align: left;
+    /*border:1px solid blue;A VIRER*/
    }
    
-   .FormProfil h1 {
+.FormProfil h1 {
     text-align: center;
    }
    
-   .FormProfil .form-data {
+.FormProfil .form-data {
     display: flex;
     justify-content: center;
     margin: 5px 0;
    }
    
-   .FormProfil .form-data label {
+.FormProfil .form-data label {
     display: inline-block;
     width: 250px;
     margin-right: 100px;
     text-align: left;
    }
    
-   .FormProfil .form-data input:not([type="submit"]) {
+.FormProfil .form-data input:not([type="submit"]) {
     flex-grow: 1;
    }
 
-
-    
-
-    /*Laptops*/
+    /*Laptops
     @media (min-width: 1024px) and (max-width: 1280px) {
 
-    }
+    }*/
 
-    /*Tablets, Ipads*/
+    /*Tablets, Ipads
     @media (min-width: 767px) and (max-width: 1023px) {
 
-    }
+    }*/
 
-    /*Low Resolution Tablets, Mobiles*/
+    /*Low Resolution Tablets, Mobiles
     @media (min-width: 424px) and (max-width: 768px){
 
+    }*/
+
+    /*Most of the Smartphones Mobiles
+    @media (min-width: 320px) and (max-width: 423px) {
+
+    }*/
+
+    @media screen and (min-width: 480px) and (max-width: 959px) {
+               
     }
 
-    /*Most of the Smartphones Mobiles*/
-    @media (min-width: 320px) and (max-width: 423px) {
+    @media screen and (max-width: 479px) {
+
+        .FormProfil {
+            width: 400px;
+           }
+           
+        
+        .FormProfil .form-data {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+           }
+           
+        .FormProfil .form-data label {
+            display: flex;
+            justify-content: center;
+            width: 355px;
+            margin-right: 10px;
+           }
+           
+        input{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+            height: 25px;
+            width: 355px;
+        }
+
 
     }
