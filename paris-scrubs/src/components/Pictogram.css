@@ -80,8 +80,13 @@ h1 {
     .image_picto {
         margin-top: 10px;
     }
+    .titlePicto {
+        font-size: 1.5rem;
+    }
     h1 {
+        color: #13BB79;
         display: inline-block;
-        max-width: 320px;
+        font-size: 2rem;
+        /*max-width: 320px*/
     }
 }

@@ -4,7 +4,7 @@ import PageProfileDisplay from "../components/DisplayProfiles/PageProfileDisplay
 import Navbar from '../components/navbar';
 import './ProfilesPage.css';
 import './Home.css';
-import Profilesearchbar from '../components/profilesearchbar';
+import Profilesearchbar from '../components/DisplayProfiles/profilesearchbar';
 import Footer from '../components/Footer';
 
 

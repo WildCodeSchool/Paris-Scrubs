@@ -2,15 +2,16 @@
     /*background: url("https://image.noelshack.com/fichiers/2019/17/3/1556098392-last.jpg") no-repeat center fixed; 
     background-size: cover;*/
     background-color: black;
-    min-height: 80vh;
-    width: 100vw;
     display:flex;
     justify-content:space-around;
+    min-height: 50vh;
+    width: 100vw;
+    margin-top: 30px;
 }
 
 .threeButton {
     height: 17vw;
-    margin-top: 10vw;
+    margin-top: 5vw;
     width: 12vw;
     border-radius: 50%;
 }
@@ -76,19 +77,22 @@
 @media (min-width: 320px) and (max-width: 423px) {
     .threeContainer {
         background-size: cover; /* standard version */
-        flex-flow: column wrap; 
+        flex-flow: column wrap;
+        /*flex-flow: row nowrap;*/
+        justify-content: center;
         margin-top: -100px;
-        min-height: 50vh;
+        min-height: 20vh;
         -webkit-background-size: cover; /* for Chrome & Safari */
     }
     .threeButton {
         background-color: rgba(82, 85, 88, 0.3);
         font:bold 25px Arial;
-        height: 40vw;
-        margin: 40px;
+        height: 35vw;
+        margin: none;
         border-radius:0;
-        width: 40vw;
+        width: 30vw;
     }
+    
 }
 
   

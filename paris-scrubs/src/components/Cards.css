@@ -1,13 +1,16 @@
 .cardsBody {
-	background: hsl(0, 0%, 90%);
+    background: hsl(0, 0%, 90%);
+    margin-top: 2rem;
 }
 
+.cardsBody h1 {
+    height: 0;
+}
 
 .cardsH2 {
     font-size: 1.5rem;
     color: #007489;
-  }
-
+}
 
 .cardsImg {
 	display: block;
@@ -27,7 +30,6 @@
     margin: 10px;	
 }
 
-
 .cardsCard-content {
 	padding: 1.4em;
     text-align: justify;
@@ -43,6 +45,11 @@
 	font-size: 1em;
 }
 
+.cardsBody h1 {
+    display: inline block;
+}
+
+
 /* Grid stuff */
 
 .cardsAllcards {
@@ -51,7 +58,6 @@
     grid-template-rows: 1fr
    
  }
-
 
 
  /* Media Queries */

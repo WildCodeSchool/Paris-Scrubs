@@ -5,10 +5,25 @@ body{
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
-
 .navLink{
+  display: inline-block;
   text-decoration: none;
+  color: black;
 }
+.navLink::after {
+  content: '';
+  display: block;
+  width: 0;
+  margin-bottom: -10px;
+  height: 3px;
+  background: cadetblue;
+  transition: width .3s;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
 
 .navNavbar{
   /*position:fixed;*/
@@ -68,7 +83,7 @@ h1{
 
 .navNavbar .navMenu .navBloc:active,
 .navNavbar .navMenu .navBloc:hover{
-  background:#fd2928;
+  background:none;
   color: #fff;
 }
 
@@ -107,26 +122,30 @@ h1{
 @media screen and (min-width: 1024px) {
   .burger-container {
     display: none;
+    }
   }
-}
-
-/*Tablets, Ipads*/
-@media (min-width: 767px) and (max-width: 1023px) {
-  .burger-container {
-    display: none;
+  
+  /*Tablets, Ipads*/
+  @media (min-width: 767px) and (max-width: 1023px) {
+    .burger-container {
+      display: none;
+    }
   }
-}
-
-/*Low Resolution Tablets, Mobiles*/
-@media (min-width: 424px) and (max-width: 768px){
-  .navMenu {
-    display: none;
+  
+  /*Low Resolution Tablets, Mobiles*/
+  @media (min-width: 424px) and (max-width: 768px){
+    .navMenu {
+      display: none;
+    }
   }
-}
-
-/*Most of the Smartphones Mobiles*/
-@media (min-width: 320px) and (max-width: 423px)  {
-  .navMenu {
-    display: none;
+  
+  /*Most of the Smartphones Mobiles*/
+  @media (min-width: 320px) and (max-width: 423px) {
+    .navMenu {
+      display: none;
+    }
+    .navScrubs {
+      font-size: 1.7rem;
+      margin-top: -1rem;
+    }
   }
-}

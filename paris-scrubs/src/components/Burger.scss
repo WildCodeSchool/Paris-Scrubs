@@ -1,9 +1,4 @@
 
-  body {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
   
   .menu-button {
     z-index: 2;
@@ -99,62 +94,62 @@
 
 /*Low Resolution Tablets, Mobiles*/
 @media (min-width: 424px) and (max-width: 768px){
-  .navNavbar {
-    height: 60px;
-  }
-  .burger-container {
-    background-color: transparent;
-    margin-top: -80px;
-  }
-  .menu-button--toggle {
-    height: 0;
-    margin: 20px auto 0;
-    padding-left: 130px;
-  }
-  ul.menu-button--list:before {
-    position: none;
-  }
-  ul.menu-button--list li::before {
-    margin: none!important;
-  }
-  ul.menu-button--list {
-    position: relative;
-    float: right;
-    margin: auto;
-  }
+.navNavbar {
+height: 60px;
+}
+.burger-container {
+background-color: transparent;
+margin-top: -80px;
+}
+.menu-button--toggle {
+height: 0;
+margin: 20px auto 0;
+padding-left: 130px;
+}
+ul.menu-button--list:before {
+position: none;
+}
+ul.menu-button--list li::before {
+margin: none!important;
+}
+ul.menu-button--list {
+position: relative;
+float: right;
+margin: auto;
+}
 }
 
 /*Most of the Smartphones Mobiles*/
-@media (min-width: 320px) and (max-width: 423px)  {
-  .navNavbar {
-    height: 150px;
-  }
-  .burger-container {
-    background-color: transparent;
-    margin-top: -80px;
-  }
-  .menu-button--toggle {
-    height: 0;
-    margin: 20px auto 0;
-    padding-left: O;
-  }
-  ul.menu-button--list:before {
-    position: none;
-  }
-  .menu-button--list li {
-    display: block;
-    /* width: 100%; */
-    min-width: 40px;
-    padding: 5px 10px;
-    text-align: left;
-    list-style: none;
-    border-bottom: 1px solid #eee;
-  }
-  ul.menu-button--list {
-    position: relative;
-    float: right;
-    margin: auto;
-  }
-  
+@media (min-width: 320px) and (max-width: 423px) {
+.navNavbar {
+height: 150px;
 }
-
+.burger-container {
+background-color: transparent;
+margin-top: -80px;
+}
+.menu-button--toggle {
+height: 0;
+margin: 20px auto 0;
+padding-left: O;
+}
+ul.menu-button--list:before {
+background-color: #0A9999;
+position: none; 
+}
+.menu-button--list li {
+background-color: #0A9999;
+display: block;
+/* width: 100%; */
+min-width: 40px;
+padding: 5px 10px;
+text-align: left;
+list-style: none;
+border-bottom: 1px solid #eee;
+}
+ul.menu-button--list {
+position: relative;
+float: right;
+margin: auto;
+}
+}
