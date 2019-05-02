@@ -5,10 +5,23 @@ body {
   padding: 0px;
   font-family: 'Poppins', sans-serif;
 }
-
-.navLink {
-  color: black;
+.navLink{
+  display: inline-block;
   text-decoration: none;
+  color: black;
+}
+.navLink::after {
+  content: '';
+  display: block;
+  width: 0;
+  margin-bottom: -10px;
+  height: 3px;
+  background: cadetblue;
+  transition: width .3s;
+}
+
+.navLink:hover::after {
+  width: 100%;
 }
 
 .navNavbar {
