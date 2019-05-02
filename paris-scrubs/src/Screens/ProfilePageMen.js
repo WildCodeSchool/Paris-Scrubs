@@ -1,9 +1,9 @@
 import React from "react"
-import { Link } from "react-router-dom"
+
 import PageProfileDisplayMen from "../components/DisplayProfiles/PageProfileDisplayMen";
 import Navbar from '../components/navbar';
 import './ProfilesPage.css'
-import Profilesearchbar from '../components/profilesearchbar';
+import ProfilesearchbarMan from '../components/DisplayProfiles/ProfilsearchbarMan';
 import Footer from '../components/Footer'
 import Clicksearchbar from '../components/Clicksearchbar';
 
@@ -20,11 +20,11 @@ class ProfilesPageMen extends React.Component {
         <div className="container">
         
         <div className="item-1">
-        <Profilesearchbar />
+        <ProfilesearchbarMan />
         </div>
         
         <div className="item-2">
-        <PageProfileDisplayMen />
+        {/* <PageProfileDisplayMen /> */}
         </div>
         </div>
         

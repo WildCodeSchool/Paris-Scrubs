@@ -1,11 +1,12 @@
 import React from "react"
-import { Link } from "react-router-dom"
-import PageProfileDisplay from "../components/DisplayProfiles/PageProfileDisplay";
 import Navbar from '../components/navbar';
 import './ProfilesPage.css'
-import Profilesearchbar from '../components/profilesearchbar';
-import Footer from '../components/Footer'
 import Clicksearchbar from '../components/Clicksearchbar';
+import './ProfilesPage.css';
+import './Home.css';
+import Profilesearchbar from '../components/DisplayProfiles/profilesearchbar';
+import Footer from '../components/Footer';
+
 
 class ProfilesPage extends React.Component {
   render() {
@@ -13,7 +14,6 @@ class ProfilesPage extends React.Component {
       <>
         <div >
         <header>
-        
         <Navbar />
         </header>
         <Clicksearchbar />

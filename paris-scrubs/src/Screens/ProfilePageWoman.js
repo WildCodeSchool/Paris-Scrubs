@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import PageProfileDisplayWoman from "../components/DisplayProfiles/PageProfileDisplayWoman";
 import Navbar from '../components/navbar';
 import './ProfilesPage.css'
-import Profilesearchbar from '../components/profilesearchbar';
+import ProfilsearchbarWoman from '../components/DisplayProfiles/ProfilsearchbarWomen';
 import Footer from '../components/Footer'
 import Clicksearchbar from '../components/Clicksearchbar';
 
@@ -20,11 +20,11 @@ class ProfilesPageWoman extends React.Component {
         <div className="container">
         
         <div className="item-1">
-        <Profilesearchbar />
+        <ProfilsearchbarWoman />
         </div>
         
         <div className="item-2">
-        <PageProfileDisplayWoman />
+        {/* <PageProfileDisplayWoman /> */}
         </div>
         </div>
         

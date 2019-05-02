@@ -8,6 +8,7 @@ import Home from './Screens/Home'
 import ProfilesPageOther from './Screens/ProfilePageOther';
 import ProfilesPageMen from './Screens/ProfilePageMen';
 import ProfilesPageWoman from './Screens/ProfilePageWoman';
+import FormPage from './Screens/FormPage';
 
 import './App.css';
 
@@ -23,6 +24,7 @@ class App extends Component {
                 <Route path="/profilepagemen" component={ProfilesPageMen} />
                 <Route path="/profilepagewomen" component={ProfilesPageWoman} />
                 <Route path="/profilepageother" component={ProfilesPageOther} />
+                <Route path="/formpage" component={FormPage} />
           </Switch>
           </BrowserRouter>
           </div>

@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import "./navbar.css";
+<<<<<<< HEAD
 import { NavLink, Link } from 'react-router-dom';
 import Navfunction from "./Navfunction";
+=======
+import Burger from './Burger'
+import {NavLink} from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
+>>>>>>> dev
 
 // import navlink which is a react component 
 
@@ -20,6 +26,7 @@ import Navfunction from "./Navfunction";
 
 
 const navbar = [
+<<<<<<< HEAD
   {
     text: "Pourquoi Scrubs ?",
     link: ""
@@ -33,10 +40,29 @@ const navbar = [
     link: ""
   },
 
+=======
+    {
+        text:"Pourquoi Scrubs ?",
+        link:"/#pictotag"
+    },
+    {
+        text:"Nos profils",
+        link:"/profilepage"
+    },
+    {
+        text:"Nos témoignages",
+        link:"/#nostemoins"
+    },
+    {
+        text:"Créez votre profil",
+        link:"/FormPage"
+    },
+>>>>>>> dev
 ];
 
 
 
+<<<<<<< HEAD
 
 class Navbar extends Component {
 
@@ -47,6 +73,25 @@ class Navbar extends Component {
     visible: true
   }
 
+=======
+        <NavLink className="navLink" exact to="/"><h1 className="navScrubs">SCRUBS</h1></NavLink>
+        
+        
+        <div className="navMenu">
+        
+            {navbar.map(navbar => (
+                
+                <p className="navBloc"><Link className="navLink" exact to={navbar.link}>{navbar.text}</Link></p>
+
+              
+            ))}
+       
+        </div>
+
+        <div className="burger-container"><Burger /></div>
+        
+    </nav>
+>>>>>>> dev
 
   /* Ajoute l'écouteur d'évenement (addEventListener)lorsque le composant est monté */
 
