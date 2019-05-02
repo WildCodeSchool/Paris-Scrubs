@@ -42,7 +42,7 @@ class Profilesearchbar extends React.Component {
       const { profiles } = this.state
       return (
       
-      <div >
+      <div>
       <div class="filter-container" >
           <h2>Recherche de candidat</h2>
           <div>

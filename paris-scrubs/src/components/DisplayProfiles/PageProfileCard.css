@@ -87,6 +87,11 @@
   
   
    @media (min-width: 320px) and (max-width: 480px) {
-     
+    .gridcapacity {
+      display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 15px;
+      }
      
   }

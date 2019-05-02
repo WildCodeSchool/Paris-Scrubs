@@ -52,6 +52,7 @@
 .monthFlaw {
     font-family: 'Cabin Condensed', sans-serif;
     font-size: 2rem;
+    color: #007489
 }
 
 @media screen and (min-width: 2559px) {
