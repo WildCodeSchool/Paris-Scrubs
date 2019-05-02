@@ -5,6 +5,7 @@ import Navbar from '../components/navbar';
 import './ProfilesPage.css'
 import Profilesearchbar from '../components/profilesearchbar';
 import Footer from '../components/Footer'
+import Clicksearchbar from '../components/Clicksearchbar';
 
 class ProfilesPageOther extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class ProfilesPageOther extends React.Component {
         
         <Navbar />
         </header>
+        <Clicksearchbar />
         <div className="container">
         
         <div className="item-1">

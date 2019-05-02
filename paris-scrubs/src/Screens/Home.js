@@ -6,7 +6,6 @@ import Displaypicto from '../components/Displaypicto';
 import MonthProfile from '../components/MonthProfile';
 import Card from '../components/Cards.js';
 import Footer from '../components/Footer';
-import Clicksearchbar from '../components/Clicksearchbar';
 
 
 class Home extends React.Component {
@@ -17,8 +16,6 @@ class Home extends React.Component {
         
           <Navbar />
          
-        
-        <Clicksearchbar />
         <ThreeButton />
         </header>
         <Displaypicto  />
