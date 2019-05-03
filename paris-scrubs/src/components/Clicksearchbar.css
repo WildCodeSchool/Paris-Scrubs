@@ -11,27 +11,27 @@
 /* 4 keyframes pour chaque navigateur afin qu'il soit compatible partout */ 
 
   @-webkit-keyframes glowing {
-    0% { background-color: rgb(243, 10, 126); -webkit-box-shadow: 0 0 40px rgb(243, 10, 126); }
-    50% { background-color: rgb(243, 10, 126); -webkit-box-shadow: 0 0 40pxrgb(243, 10, 126); }
-    100% { background-color: rgb(243, 10, 126); -webkit-box-shadow: 0 0 40px rgb(243, 10, 126); }
+    0% { background-color: rgb(75, 247, 167); box-shadow: 0 0 3px rgb(255, 16, 155); }
+    50% { background-color: rgb(75, 247, 167);;box-shadow: 0 0 80px rgb(255, 16, 155);color: rgb(255, 66, 32);}
+    100% { background-color: rgb(75, 247, 167);; box-shadow: 0 0 3px rgb(255, 16, 155); color: rgb(91, 121, 255);}
   }
   
   @-moz-keyframes glowing {
-    0% { background-color: rgb(243, 10, 126); -webkit-box-shadow: 0 0 40px rgb(243, 10, 126); }
-    50% { background-color: rgb(243, 10, 126); -webkit-box-shadow: 0 0 40pxrgb(243, 10, 126); }
-    100% { background-color: rgb(243, 10, 126); -webkit-box-shadow: 0 0 40px rgb(243, 10, 126); }
+    0% { background-color: rgb(75, 247, 167); box-shadow: 0 0 3px rgb(255, 16, 155); }
+    50% { background-color: rgb(75, 247, 167);;box-shadow: 0 0 80px rgb(255, 16, 155);color: rgb(255, 66, 32);}
+    100% { background-color: rgb(75, 247, 167);; box-shadow: 0 0 3px rgb(255, 16, 155); color: rgb(91, 121, 255);}
   }
   
   @-o-keyframes glowing {
-    0% { background-color: rgb(243, 10, 126); box-shadow: 0 0 100px rgb(243, 10, 126); }
-    50% { background-color: rgb(243, 10, 126); box-shadow: 0 0 100px rgb(243, 10, 126); }
-    100% { background-color: rgb(243, 10, 126); box-shadow: 0 0 1000px rgb(243, 10, 126); }
+    0% { background-color: rgb(75, 247, 167); box-shadow: 0 0 3px rgb(255, 16, 155); }
+    50% { background-color: rgb(75, 247, 167);;box-shadow: 0 0 80px rgb(255, 16, 155);color: rgb(255, 66, 32);}
+    100% { background-color: rgb(75, 247, 167);; box-shadow: 0 0 3px rgb(255, 16, 155); color: rgb(91, 121, 255);}
   }
   /* de 0 à 100 % sert pour palier la transition de couleurs! les propriétes et leur couleurs sont définies pour chaque paliers*/ 
   @keyframes glowing {
-    0% { background-color: rgb(243, 10, 126); box-shadow: 0 0 100px rgb(62, 243, 17); }
-    50% { background-color: rgb(243, 10, 126); box-shadow: 0 0 100px  rgb(62, 243, 17); color: rgba(255, 17, 0, 0.281);}
-    100% { background-color: rgb(243, 10, 126); box-shadow: 0 0 1000px rgb(62, 243, 17); color: rgb(64, 250, 195);}
+    0% { background-color: rgb(75, 247, 167); box-shadow: 0 0 3px rgb(255, 16, 155); }
+    50% { background-color: rgb(75, 247, 167);;box-shadow: 0 0 80px rgb(255, 16, 155);color: rgb(255, 66, 32);}
+    100% { background-color: rgb(75, 247, 167);; box-shadow: 0 0 3px rgb(255, 16, 155); color: rgb(91, 121, 255);}
   }
 
 
@@ -40,10 +40,10 @@
   height: 150px; 
   width: 550px;
   -webkit-border-radius: 10px;
-  border-radius: 10px;
+  border-radius: 40px;
   border: none;
-  color: rgb(24, 22, 158);
-  font-size: 45px;
+  color: rgb(250, 94, 242);
+  font-size: 35px;
   font-weight: bolder;
   text-decoration: blink;
   cursor: pointer;
@@ -52,10 +52,10 @@
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
-  -webkit-animation: glowing 1.5s infinite;
-  -moz-animation: glowing 1.5s infinite;
-  -o-animation: glowing 1.5s infinite;
-  animation: glowing 1.5s infinite;
+  -webkit-animation: glowing 2s infinite;
+  -moz-animation: glowing 2s infinite;
+  -o-animation: glowing 2s infinite;
+  animation: glowing 2s infinite;
 }
 
 

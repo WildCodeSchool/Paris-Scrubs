@@ -8,11 +8,11 @@
     height: 150px;
     padding: 20px;
     font-family: sans-serif;
-    background: -moz-linear-gradient(right,#007489,rgb(241, 62, 188),rgb(226, 86, 184),rgb(238, 153, 212),rgb(240, 189, 225),rgb(250, 218, 240),rgb(250, 249, 250));
-    background: -webkit-linear-gradient(right,rgb(255, 15, 183),rgb(241, 62, 188),rgb(226, 86, 184),rgb(238, 153, 212),rgb(240, 189, 225),rgb(250, 218, 240),rgb(250, 249, 250));
-    background: -ms-linear-gradient(right,rgb(255, 15, 183),rgb(241, 62, 188),rgb(226, 86, 184),rgb(238, 153, 212),rgb(240, 189, 225),rgb(250, 218, 240),rgb(250, 249, 250));
-    background: -o-linear-gradient(right,rgb(255, 15, 183),rgb(241, 62, 188),rgb(226, 86, 184),rgb(238, 153, 212),rgb(240, 189, 225),rgb(250, 218, 240),rgb(250, 249, 250));
-    background: linear-gradient(to left,rgb(255, 15, 183),rgb(241, 62, 188),rgb(226, 86, 184),rgb(238, 153, 212),rgb(240, 189, 225),rgb(250, 218, 240),rgb(250, 249, 250)); 
+    background: -moz-linear-gradient(right,#007489,#207a8b,#699da7,#b1d8e2,#e5e2e2,#e2dfdf,rgb(255, 255, 255));
+    background: -webkit-linear-gradient(right,#007489,#207a8b,#699da7,#b1d8e2,#e5e2e2,#e2dfdf,rgb(255, 255, 255));
+    background: -ms-linear-gradient(right,#007489,#207a8b,#699da7,#b1d8e2,#e5e2e2,#e2dfdf,rgb(255, 255, 255));
+    background: -o-linear-gradient(right,#007489,#207a8b,#699da7,#b1d8e2,#e5e2e2,#e2dfdf,rgb(255, 255, 255));
+    background: linear-gradient(to left,#007489,#207a8b,#699da7,#b1d8e2,#e5e2e2,#e2dfdf,rgb(255, 255, 255));
   }
   
 
