@@ -1,3 +1,3 @@
 # Paris-Scrubs
+This is my project number 2 made while I was studying at Wild Code School : we have built a dating web site that focuses on individuals imperfections. We used Reactjs/CSS3/HTML5.
 
-project number 2 Wild Code School : Team Scrub , We are going to create a dating web site that will focus on individuals imperfections
