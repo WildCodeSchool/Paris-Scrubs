@@ -38,6 +38,7 @@
     font-size: 2.5rem;
     left: 2em;
     margin-top: -250px;
+    margin-left: 200px;
 }
 
 .monthBox:hover .monthTitle{
@@ -50,10 +51,11 @@
 }
 
 .monthFlaw {
-    position: absolute;
+  
     font-family: 'Cabin Condensed', sans-serif;
     font-size: 2rem;
     color: #007489;
+    text-align: center;
     
 }
 

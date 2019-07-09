@@ -13,7 +13,7 @@ class PageProfileDisplayMen extends Component {
 
     getProfile = () => {
         // Récupération des profils via fetch
-        fetch("https://discaz.github.io/API-profiles/api/all.json")
+        fetch("https://sahsou.github.io/api-profiles/api/all.json")
           .then(response  =>  response.json())
           .then(result  => console.log(result) ||
             // mise à jour de la state avec les nouvelles données
@@ -36,7 +36,7 @@ class PageProfileDisplayMen extends Component {
 
     <div className="gridcapacity Homme">
         {profiles.filter(profile => profile.gender.includes("Homme")).map((profile,index) =>
-            (< PageProfileCard default1={profile.physic} default2={profile.mental} name={profile.username} img={profile.img} sex={profile.sex}/>))} 
+            (< PageProfileCard default1={profile.physic} default2={profile.mental} name={profile.username} img={profile.img}/>))} 
     </div>
             
 </body>

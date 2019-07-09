@@ -8,11 +8,10 @@ class FormFilmES5 extends React.Component {
             username: '',
             img: '',
             age: '',
-            gender: '...un homme, une femme ou une chose ? : ',
+            gender: '...un homme, une femme ? : ',
             physic: '',
             mental: '',
             food:'',
-            sex:'',
             }
             this.onChange = this.onChange.bind(this);
             this.submitForm = this.submitForm.bind(this);
@@ -168,18 +167,6 @@ class FormFilmES5 extends React.Component {
                         name="food"
                         onChange={this.onChange}
                         value={this.state.food}
-                    />
-                    </div>
-
-                    {/* SEX */}
-                    <div className="form-data">
-                    <label htmlFor="sex">Vos préférences sexuelles</label>
-                    <input
-                        type="text"
-                        id="sex"
-                        name="sex"
-                        onChange={this.onChange}
-                        value={this.state.sex}
                     />
                     </div>
 

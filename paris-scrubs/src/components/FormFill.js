@@ -7,11 +7,10 @@ state = {
     username: '',
     img: '',
     age: '',
-    gender: '...un homme, une femme ou une chose ? ',
+    gender: '...un homme, une femme ? ',
     physic: '',
     mental: '',
     food:'',
-    sex:'',
     }
     
 
@@ -163,18 +162,6 @@ state = {
                         name="food"
                         onChange={this.onChange}
                         value={this.state.food}
-                    />
-                    </div>
-
-                    {/* SEX */}
-                    <div className="form-data">
-                    <label htmlFor="sex">Vos préférences sexuelles</label>
-                    <input
-                        type="text"
-                        id="sex"
-                        name="sex"
-                        onChange={this.onChange}
-                        value={this.state.sex}
                     />
                     </div>
 

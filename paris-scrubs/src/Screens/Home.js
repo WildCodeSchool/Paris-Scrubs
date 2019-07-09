@@ -1,7 +1,7 @@
 import React from "react"
 
 import Navbar from '../components/navbar';
-import ThreeButton from '../components/ThreeButton.js';
+import TwoButton from '../components/TwoButton.js';
 import Displaypicto from '../components/Displaypicto';
 import MonthProfile from '../components/MonthProfile';
 import Card from '../components/Cards.js';
@@ -15,7 +15,7 @@ class Home extends React.Component {
         <div className="home">
         <header className="App-header">
         <Navbar />
-        <ThreeButton />
+        <TwoButton />
         </header>
         <Displaypicto  />
         <MonthProfile />

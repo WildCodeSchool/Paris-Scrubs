@@ -5,7 +5,6 @@ import { Route, BrowserRouter, Switch, NavLink } from 'react-router-dom';
 
 import ProfilesPage from './Screens/ProfilesPage';
 import Home from './Screens/Home'
-import ProfilesPageOther from './Screens/ProfilePageOther';
 import ProfilesPageMen from './Screens/ProfilePageMen';
 import ProfilesPageWoman from './Screens/ProfilePageWoman';
 import FormPage from './Screens/FormPage';
@@ -23,7 +22,6 @@ class App extends Component {
                 <Route path="/profilepage" component={ProfilesPage} />
                 <Route path="/profilepagemen" component={ProfilesPageMen} />
                 <Route path="/profilepagewomen" component={ProfilesPageWoman} />
-                <Route path="/profilepageother" component={ProfilesPageOther} />
                 <Route path="/formpage" component={FormPage} />
           </Switch>
           </BrowserRouter>

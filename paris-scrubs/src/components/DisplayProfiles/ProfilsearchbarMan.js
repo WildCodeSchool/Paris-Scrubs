@@ -8,7 +8,6 @@ class Profilesearchbar extends React.Component {
        state = {
          showFemal : false,
          showMal : false,
-         showOther : false,
          profiles: []
        }
 
@@ -18,13 +17,10 @@ class Profilesearchbar extends React.Component {
        handleShowMal = () => {
          this.setState({ showMal: !this.state.showMal })
        }
-       handleShowOther = () => {
-         this.setState({ showOther: !this.state.showOther })
-       }
 
        getProfile = () => {
         // Récupération des profils via fetch
-        fetch("https://discaz.github.io/API-profiles/api/all.json")
+        fetch("https://sahsou.github.io/api-profiles/api/all.json")
           .then(response  =>  response.json())
           .then(result  => console.log(result) ||
             // mise à jour de la state avec les nouvelles données
@@ -59,15 +55,6 @@ class Profilesearchbar extends React.Component {
                    />
                   <label for="week">Femme </label>
                 </li>
-                <li>
-                  <input class="with-gap"  type="checkbox" onClick={this.handleShowOther}
-                   />
-                  <label for="month">Autre</label>
-                </li>
-                <li>
-                  <input class="with-gap"  type="radio" />
-                  <label for="year">Défault majeur</label>
-                </li>
               </ul>
             </div>
             </div>
@@ -75,28 +62,16 @@ class Profilesearchbar extends React.Component {
           <div className="gridcapacity">
              {profiles.filter(profile => {
 
-            if(this.state.showFemal && this.state.showMal && this.state.showOther === true) {
-            return(profile.gender.includes('Femme') + profile.gender.includes('Homme') + profile.gender.includes('autre') )}
-             
-              else if (this.state.showFemal && this.state.showOther === true)
-              return(profile.gender.includes('Femme') + profile.gender.includes('autre') )
-             
-              else if (this.state.showMal && this.state.showOther === true)
-              return(profile.gender.includes('Homme') + profile.gender.includes('autre') )
-             
-              else if (this.state.showFemal && this.state.showMal === true)
-              return(profile.gender.includes('Femme') + profile.gender.includes('Homme'))
+            if(this.state.showFemal && this.state.showMal === true) {
+            return(profile.gender.includes('Femme') + profile.gender.includes('Homme') )}
              
               else if (this.state.showMal === true)
               return(profile.gender.includes('Homme') )
              
               else if (this.state.showFemal === true)
               return(profile.gender.includes('Femme') )
-             
-              else if (this.state.showOther === true)
-              return(profile.gender.includes('autre') )
 
-              else if (this.state.showFemal || this.state.showMal || this.state.showOther === false) {
+              else if (this.state.showFemal || this.state.showMal === false) {
                   return(profile.gender.includes('Homme'))
               }
              

@@ -16,7 +16,7 @@ body {
   width: 0;
   margin-bottom: -10px;
   height: 3px;
-  background: cadetblue;
+  background-image: linear-gradient(to right, rgb(112, 226, 230), rgb(0, 173, 9), rgb(255, 142, 5), rgb(242, 10, 10));
   transition: width .3s;
 }
 
@@ -46,12 +46,32 @@ h1{
 }
 
 .navScrubs{
-    font-size: 50px;
+    font-size: 70px;
     font-style:italic;
+    font-weight: bolder;
     /*border: 1px solid #000;
     color: #000;*/
 }
 
+.firstletter {
+ color: blue;
+}
+
+.secondletter {
+  color: rgb(112, 226, 230);
+ }
+ .thirdletter {
+  color: rgb(0, 173, 9);
+ }
+ .fourthletter {
+  color: rgb(255, 142, 5);
+ }
+ .fifthletter {
+  color: rgb(242, 10, 10);
+ }
+ .sixthletter {
+  color: blue;
+ }
 .navNavbar .navScrubs{
     position: relative;
     display: flex;

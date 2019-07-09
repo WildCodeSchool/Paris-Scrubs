@@ -3,8 +3,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
     margin: auto;
-    background-color: #007489;
-    opacity: 0.8;
+    background-image: radial-gradient(center bottom, ellipse cover, #fa97ed, #ff00ea);
+    background-image: -o-radial-gradient(center bottom, ellipse cover, #fa97ed, #ff00ea);
+    background-image: -ms-radial-gradient(center bottom, ellipse cover, #fa97ed, #ff00ea);
+    background-image: -moz-radial-gradient(center bottom, ellipse cover, #fa97ed, #ff00ea);
+    background-image: -webkit-radial-gradient(center bottom, ellipse cover,#fa97ed, #ff00ea);
 }
 .picto_card {
     height: 150px;

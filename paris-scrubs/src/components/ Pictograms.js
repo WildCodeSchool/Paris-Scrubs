@@ -7,8 +7,7 @@ const Pictograms = ({image,title,text}) => {
          <div className="picto_container">
              <img className="image_picto" alt='pictograms' src={image} ></img>
              <h3>{title}</h3>
-             <p>{text}</p>
-             
+             <p>{text}</p>  
           </div>
     )
 }

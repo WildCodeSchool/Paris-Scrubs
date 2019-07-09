@@ -1,7 +1,7 @@
 import React from "react"
 
 
-const Modal = ({ name, physic, mental, sexe, image, handleClose, show}) => {
+const Modal = ({ name, physic, mental, image, handleClose, show}) => {
     const showHideClassname = show ? "modal-display-block" : "modal-display-none";
   
     return (
@@ -17,7 +17,6 @@ const Modal = ({ name, physic, mental, sexe, image, handleClose, show}) => {
             <h1 className="modalName">{name}</h1>
             <p className="modalDescription">{physic}</p>
             <p className="modalDescription">{mental}</p>
-            <p className="modalDescription">{sexe}</p>
             <p className="modalDescription">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.
             Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.
             Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>

@@ -5,7 +5,6 @@ import "./FormFill.css"
 class FormFill extends React.Component {
 state = {
   username : "",
-
   aversion : "" ,
   badFood : "" ,
   film : "",
@@ -15,7 +14,6 @@ state = {
   physique : "",
   psychologie : "",
   punchline : "",
-  sexualite : "",
   story :"",
 }
 
@@ -83,7 +81,6 @@ typingChange = event => {
         </label>
         
         <ul>
-          
           <li>
             <h3>
             {this.state.badFood}
@@ -120,7 +117,6 @@ typingChange = event => {
             </div>
           </li>
         </ul>
-        
       </div>
 
       {/* FILLING AREA 5 : DELIGHTS*/}
@@ -147,15 +143,6 @@ typingChange = event => {
               </h3>
               <div>
                 <input name ={this.props.musique} type="text" onChange = {this.typingChange} placeholder="j'aime ecouter..."/>
-              </div>
-            </li>
-            
-            <li>
-              <h3>
-                {this.state.sexualite}
-              </h3>   
-              <div>
-                <input name ={this.props.sexualite} type="text" onChange = {this.typingChange} placeholder="mes penchants sexuels"/>
               </div>
             </li>
             

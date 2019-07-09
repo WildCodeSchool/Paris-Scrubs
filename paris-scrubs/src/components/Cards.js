@@ -12,7 +12,6 @@ const Card = () => {
     <div className="cardsAllcards">
         {infosCard.map(infoCard => <DisplayCard default={infoCard.default} name={infoCard.name} img={infoCard.img} desc={infoCard.desc}/>
  )}
-
     </div>      
 </div>
       

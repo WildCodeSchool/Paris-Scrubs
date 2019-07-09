@@ -4,7 +4,7 @@ import Burger from './Burger'
 import {NavLink} from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link';
 
-{/* import navlink which is a react component 
+/* import navlink which is a react component 
 
 <nav className="navbar">
         
@@ -18,7 +18,7 @@ import { HashLink as Link } from 'react-router-hash-link';
         
     </nav>
 
-*/}
+*/
 
 const navbar = [
     {
@@ -44,7 +44,13 @@ const Navbar = () => (
 
     <nav className="navNavbar">
 
-        <NavLink className="navLink" exact to="/"><h1 className="navScrubs">SCRUBS</h1></NavLink>
+        <NavLink className="navLink" exact to="/">
+        <h1 className="navScrubs"><span className="firstletter">S</span><span className="secondletter">C</span><span className="thirdletter">R</span>
+        <span className="fourthletter">U</span>
+        <span className="fifthletter">B</span>
+        <span className="sixthletter">S</span>
+        </h1>
+        </NavLink>
         
         
         <div className="navMenu">

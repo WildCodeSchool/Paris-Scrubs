@@ -1,6 +1,5 @@
 import React from "react"
 
-import PageProfileDisplayMen from "../components/DisplayProfiles/PageProfileDisplayMen";
 import Navbar from '../components/navbar';
 import './ProfilesPage.css'
 import ProfilesearchbarMan from '../components/DisplayProfiles/ProfilsearchbarMan';

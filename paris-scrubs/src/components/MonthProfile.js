@@ -6,16 +6,16 @@ import {Link} from 'react-router-dom'
 
 const profiles = [
     {
-    photo :"https://images.unsplash.com/photo-1516651000622-7f32fe80a57a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-    firstName : "Nolan",
-    flaw : "Aquaphobie ou la peur de l'eau et ne se lave jamais",
+    photo :"https://image.noelshack.com/fichiers/2019/28/2/1562659367-tee-shirt-homme-large-col-publicitaire-coton-peigne-ringspun.jpg",
+    firstName : "James",
+    flaw : "Proche chez toi",
     button : "Voir le profil de ", 
     link:"/profilepage"
     },
     {
-    photo :"https://images.unsplash.com/photo-1528960393052-3d5a27ac0cf2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80",
-    firstName : "Inès",
-    flaw : "Complexée par sa face gauche",
+    photo :"https://image.noelshack.com/fichiers/2019/28/2/1562662185-woman-2032350-960-720.jpg",
+    firstName : "Lisa",
+    flaw : "Avec le plus de point commun",
     button : "Voir le profil de ",
     link: "/profilepagewomen"
     },
@@ -26,8 +26,8 @@ const MonthProfile = () => (
         {profiles.map(profile => (
         <div>
             <div className="monthBox">
-                <img src={profile.photo} alt="photo" className="monthPhoto"/>
-                <p className="monthTitle">SUPER DEFAUT DU MOIS  <p className="monthFlaw">{profile.flaw}</p></p>
+                <img src={profile.photo} alt="photos" className="monthPhoto"/>
+                <p className="monthTitle">PROFIL DU MOIS  <p className="monthFlaw">{profile.flaw}</p></p>
                 
             </div>
         <br />

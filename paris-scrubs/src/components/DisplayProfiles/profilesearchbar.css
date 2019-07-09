@@ -8,7 +8,11 @@
 
 .filter-container {
   
-    border: solid black 2px;
+    background-image: radial-gradient(center bottom, ellipse cover, #fa97ed, #ff00ea);
+    background-image: -o-radial-gradient(center bottom, ellipse cover, #fa97ed, #ff00ea);
+    background-image: -ms-radial-gradient(center bottom, ellipse cover, #fa97ed, #ff00ea);
+    background-image: -moz-radial-gradient(center bottom, ellipse cover, #fa97ed, #ff00ea);
+    background-image: -webkit-radial-gradient(center bottom, ellipse cover,#fa97ed, #ff00ea);
     margin-left: 30px;
     margin-right: 30px;
     padding: 15px;

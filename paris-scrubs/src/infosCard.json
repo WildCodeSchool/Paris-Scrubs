@@ -1,24 +1,24 @@
 [
     {
-        "default": "Je baille constamment", 
-        "name": "Gégé", 
-        "img": "https://res.cloudinary.com/dzzuxhr3r/image/upload/v1554387593/projet%20Scrub/Ugly-and-Crazy-Men-06.jpg", 
-        "desc": "Tous les membres de ma famille sont atteints par cette incapacité à réprimer les baillements. Grâce à Scrub, j'ai pu trouver la compagne idéale qui tolère de voir constamment le fond de ma gorge ."
+        "default": "Je n'aurai jamais cru trouver ma moitié...", 
+        "name": "Amandine et Christophe, en couple depuis 3 ans", 
+        "img": "https://image.noelshack.com/fichiers/2019/28/2/1562675328-ce-que-couple-nos-parents-dit-nous-width1024.jpg", 
+        "desc": "Tous les membres de ma famille se sont réjuis de ma nouvelle rencontre et désormais ils recommande ce site à tous leurs amis."
     },
     
     {
         
-        "default": "Nous fumons comme des pompiers, notre maison est constamment enfumée",
+        "default": "Jamais j'aurai cru me marier grâce à un site de rencontre... Mais je n'ai aucun regrets!",
         "name": "Magalie et Jérémie, mariés récemment",
-        "img":"https://res.cloudinary.com/dzzuxhr3r/image/upload/v1554387593/projet%20Scrub/ugly1.jpg",
-        "desc": "C'est grâce à Scrub que nous nous sommes rencontrés. Impossible auparavant de trouver quelqu'un qui puisse supporter notre addiction à la cigarette et à tout ce qui se fume en général."
+        "img":"https://image.noelshack.com/fichiers/2019/28/2/1562675328-photographe-mariage-romantique-wambrechies.jpg",
+        "desc": "C'est grâce à Scrub que nous nous sommes rencontrés. Impossible auparavant de trouver quelqu'un avec qui j'aurai cru me marier."
     },
 
     {
-        "default": "J'aime me couvrir la peau avec des objets métalliques",
-        "name": "Robert",
-        "img" : "https://res.cloudinary.com/dzzuxhr3r/image/upload/v1554392582/12-strange-people-you-have-to-see-to-believe-1.jpg",
-        "desc": "Couvrir mon corps de couverts me permet de calmer mes angoisses. J'ai pu, grâce à Scrub, rencontrer ma femme d'origine chinoise qui a elle une relation particulière avec les baguettes."
+        "default": "Je ne croyais plus aux histoires d'amours, mais aujourdh'hui tout est encore possible!",
+        "name": "Christelle et Yves, deux ames soeurs qui se sont trouvées",
+        "img" : "https://image.noelshack.com/fichiers/2019/28/2/1562675897-couple-un-expert-donne-la-cle-des-relations-qui-marchent-width1024.jpg",
+        "desc": "Après avoir utilisé plusieurs sites internet, je ne croyais plus en l'amour, mais Scrub's m'a démontrer le contraire."
 
     }
 

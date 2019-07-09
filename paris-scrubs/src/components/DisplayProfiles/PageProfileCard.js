@@ -22,8 +22,7 @@ class PageProfileCard extends Component {
             name : this.props.name,  
             physic : this.props.default1, 
             mental : this.props.default2,
-            image : this.props.img,
-            sexe : this.props.sex
+            image : this.props.img
         };   
         
         return (
@@ -43,15 +42,11 @@ class PageProfileCard extends Component {
 
            
             <div className="PageProfilecard-title">
-                <p>Défaut physique: {this.props.default1}</p>
+                <p>Déscription physique: {this.props.default1}</p>
             </div>
             
             <div className="PageProfilecard-title">
-                <p>Défaut mental: {this.props.default2}</p>
-            </div>
-
-            <div className="PageProfilecard-excerpt">
-                <p>Pratique sexuelle: {this.props.sex} </p>
+                <p>Caractère: {this.props.default2}</p>
             </div>
 
             <main>

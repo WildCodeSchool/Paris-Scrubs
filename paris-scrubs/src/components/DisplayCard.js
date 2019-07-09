@@ -8,9 +8,8 @@ const DisplayCard = (props) => {
     </picture>
     
     <div className="cardsCard-content">
-
         <h2 className="cardsH2">{props.name}</h2>
-        <p className="cardsFlaw"><strong>Défaut majeur : </strong>{props.default}</p>
+        <p className="cardsFlaw"><strong> Histoire : </strong>{props.default}</p>
         <p>{props.desc}</p>
     </div>
     
