@@ -15,7 +15,7 @@ const profiles = [
     {
     photo :"https://image.noelshack.com/fichiers/2019/28/2/1562662185-woman-2032350-960-720.jpg",
     firstName : "Lisa",
-    flaw : "Avec le plus de point commun",
+    flaw : "Qui a le plus de points communs",
     button : "Voir le profil de ",
     link: "/profilepagewomen"
     },
