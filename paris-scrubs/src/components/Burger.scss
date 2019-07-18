@@ -1,85 +1,85 @@
-   .menu-button {
-    z-index: 2;
+.menu-button {
+  z-index: 2;
+  position: relative;
+  &.on span{
+    background: transparent;
+  }
+  &.on span:before {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  &.on span:after {
+    transform: rotate(-45deg) translate(7px, -8px);
+  }
+  &.on .menu-button--list {
+    opacity: 1;
+  }
+  &--toggle {
+    display: block;
     position: relative;
-    &.on span{
-      background: transparent;
-    }
-    &.on span:before {
-      transform: rotate(45deg) translate(5px, 5px);
-    }
-    &.on span:after {
-      transform: rotate(-45deg) translate(7px, -8px);
-    }
-    &.on .menu-button--list {
-      opacity: 1;
-    }
-    &--toggle {
-      display: block;
-      position: relative;
-      width: 28px;
-      height: 30px;
-      margin: 30px auto 10px;
-    }
-    
-    &--toggle span, 
-    &--toggle span:before, 
-    &--toggle span:after {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 10px;
-      width: 100%;
-      height: 5px;
-      background: #888;
-      border-radius: 2px;
-      transition: all 0.3s;
-    }
-    &--toggle span:before {
-      top: -9px;
-    }
-    &--toggle span:after {
-      top: 9px;
-    }
-    &--toggle span {
-      display: block;
-      position: relative;
-    }
-    
-    &--list {
-      position: absolute;
-      width: 200px;
-      top: 45px;
-      left: 0;
-      margin: 0;
-      padding: 0;
-      display: block;
-      background: #fff;
-      border-radius: 3px;
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-    &--list:before {
-      position: absolute;
-      top: -15px;
-      left: 0px;
-      content: '';
-      display: block;
-      border-left: 15px solid transparent;
-      border-right: 15px solid transparent;
-      border-bottom: 15px solid white;
-    }  
-    &--list li {
-      display: block;
-      width: 100%;
-      min-width: 40px;
-      padding: 5px 10px;
-      text-align: left;
-      list-style: none;
-      border-bottom: 1px solid #eee;
-    }
-    
+    width: 28px;
+    height: 30px;
+    margin: 30px auto 10px;
   }
   
+  &--toggle span, 
+  &--toggle span:before, 
+  &--toggle span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    height: 5px;
+    background: #888;
+    border-radius: 2px;
+    transition: all 0.3s;
+  }
+  &--toggle span:before {
+    top: -9px;
+  }
+  &--toggle span:after {
+    top: 9px;
+  }
+  &--toggle span {
+    display: block;
+    position: relative;
+  }
+  
+  &--list {
+    position: absolute;
+    width: 200px;
+    top: 45px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background: #fff;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  &--list:before {
+    position: absolute;
+    top: -15px;
+    left: 0px;
+    content: '';
+    display: block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid white;
+  }  
+  &--list li {
+    display: block;
+    width: 100%;
+    min-width: 40px;
+    padding: 5px 10px;
+    text-align: left;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+  }
+  
+}
+
 /*Laptops*/
 @media (min-width: 1024px) and (max-width: 1280px) {
 
@@ -96,58 +96,58 @@
 height: 60px;
 }
 .burger-container {
-  background-color: transparent;
-  margin-top: -80px;
+background-color: transparent;
+margin-top: -80px;
 }
 .menu-button--toggle {
-  height: 0;
-  margin: 20px auto 0;
-  padding-left: 130px;
+height: 0;
+margin: 20px auto 0;
+padding-left: 130px;
 }
 ul.menu-button--list:before {
-  position: none;
+position: none;
 }
 ul.menu-button--list li::before {
-  margin: none!important;
+margin: none!important;
 }
 ul.menu-button--list {
-  position: relative;
-  float: right;
-  margin: auto;
+position: relative;
+float: right;
+margin: auto;
 }
 }
 
 /*Most of the Smartphones Mobiles*/
 @media (min-width: 320px) and (max-width: 423px) {
 .navNavbar {
-  height: 150px;
+height: 150px;
 }
 .burger-container {
-  background-color: transparent;
-  margin-top: -80px;
+background-color: transparent;
+margin-top: -80px;
 }
 .menu-button--toggle {
-  height: 0;
-  margin: 20px auto 0;
-  padding-left: O;
+height: 0;
+margin: 20px auto 0;
+padding-left: O;
 }
 ul.menu-button--list:before {
-  background-color: none;
-  position: none; 
+background-color: none;
+position: none; 
 }
 .menu-button--list li {
-  background-color: none;
-    display: block;
-  /* width: 100%; */
-  min-width: 40px;
-  padding: 5px 10px;
-  text-align: left;
-  list-style: none;
-  border-bottom: 1px solid #eee;
+background-color: none;
+  display: block;
+/* width: 100%; */
+min-width: 40px;
+padding: 5px 10px;
+text-align: left;
+list-style: none;
+border-bottom: 1px solid #eee;
 }
 ul.menu-button--list {
-  position: relative;
-  float: right;
-  margin: auto;
-  }
+position: relative;
+float: right;
+margin: auto;
+}
 }

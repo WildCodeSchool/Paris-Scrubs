@@ -42,7 +42,7 @@
 /*Tablets, Ipads*/
 @media (min-width: 767px) and (max-width: 1023px) {
     .threeContainer {
-        background-color: rgba(82, 85, 88, 0.3);
+        /*background-color: rgba(82, 85, 88, 0.3);*/
         background-size: cover; /* standard version */
         flex-flow: column wrap; 
         min-height: 40vh;

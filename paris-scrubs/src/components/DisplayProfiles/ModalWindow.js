@@ -22,7 +22,7 @@ const Modal = ({ name, physic, mental, sexe, image, handleClose, show}) => {
             Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.
             Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
       
-            <button className="btn" onClick={handleClose}>close</button>
+            <button className="btn" onClick={src=handleClose}>close</button>
           </div>       
           </div>
       </div>      

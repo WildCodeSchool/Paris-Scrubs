@@ -92,25 +92,27 @@ a.footerLinksDog {
  }
 
 @media (max-width: 600px) {
+.footerDistributed .footerLeftDog{
+	width: 100vw;
+	}
+.footerDistributed .footerLeft,
+.footerDistributed .footerRight{
+	text-align: center;
+}
+.icon_con {
+	display: flex;
+	justify-content: center;
+}
+.footerDistributed .footerRight {
+	float: none;
+	margin: 0 auto 20px;
+}
 
-	.footerDistributed .footerLeft,
-	.footerDistributed .footerRight{
-		text-align: center;
-	}
-    .icon_con {
-		display: flex;
-		justify-content: center;
-	}
-	.footerDistributed .footerRight {
-		float: none;
-		margin: 0 auto 20px;
-	}
-
-	.footerDistributed .footerLeft p.footerLinks {
-		line-height: 1.8;
-	}
-	.footerDistributed .footerLeftDog a.footerLinksDog {
-		line-height: 1.8;
-	}
+.footerDistributed .footerLeft p.footerLinks {
+	line-height: 1.8;
+}
+.footerDistributed .footerLeftDog a.footerLinksDog {
+	line-height: 1.8;
+}
 	
 }
